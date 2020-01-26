@@ -1,4 +1,23 @@
 import sys
+import xlsxwriter
+
+def tryPyQt5():
+    from PyQt5 import QtWidgets
+    app = QtWidgets.QApplication(sys.argv)
+    widget = QtWidgets.QWidget()
+    widget.resize(400, 100)
+    widget.setWindowTitle('This is a demo for PyQt Widget')
+    widget.show()
+
+    exit(app.exec_())
+
+def tryXlsxwriter():
+    workExcel = xlsxwriter.Workbook('excel_name')
+    workSheet = workExcel.add_worksheet('sheet_name')
+    workFormat = workExcel.add_format({
+        'bold': True,
+
+    })
 
 # Pr1 Pr2
 def trySys():
@@ -14,4 +33,6 @@ def trySys():
 
 
 if __name__ == '__main__':
-    trySys()
+    # trySys()
+    tryPyQt5()
+
