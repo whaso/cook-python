@@ -1,4 +1,6 @@
 --index https://pypi.doubanio.com/simple
 
 
-numpy==1.19.5
+Flask
+SQLAlchemy
+Flask-SQLAlchemy
