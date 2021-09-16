@@ -1,6 +1,7 @@
 --index https://pypi.doubanio.com/simple
 
 
-Flask
-SQLAlchemy
-Flask-SQLAlchemy
+Flask==2.0.1
+SQLAlchemy==1.4.23
+Flask-SQLAlchemy==2.5.1
+pymysql==1.0.2
