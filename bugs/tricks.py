@@ -1,9 +1,11 @@
 
-a = {"test": 20}
 
-def share_const(a={"test": 10}):
+def share_var(a):
+    a["int"] = 20
     print(a)
 
 
 if __name__ == "__main__":
-    pass
+    a = {"ten": {"int": 10}}
+    share_var(a["ten"])
+    print(a)
