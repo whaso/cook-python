@@ -5,10 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "this is what's name?",
+            "name": "app",
             "type": "python",
             "request": "launch",
             "program": "flask_tutorial/app.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "py",
+            "type": "python",
+            "request": "launch",
+            "program": "bugs/tricks.py",
             "console": "integratedTerminal"
         }
     ]

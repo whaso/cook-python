@@ -5,7 +5,23 @@ def share_var(a):
     print(a)
 
 
+def t_dict():
+    a = dict(
+        id=1,
+        name="a"
+    )
+    b = dict(
+        id=2,
+        name="b"
+    )
+    l = [a, b]
+
+    for i, j in enumerate(l):
+        if j["id"] == 1:
+            del l[i]
+    
+    print(l)
+
+
 if __name__ == "__main__":
-    a = {"ten": {"int": 10}}
-    share_var(a["ten"])
-    print(a)
+    t_dict()
