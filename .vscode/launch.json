@@ -15,7 +15,7 @@
             "name": "py",
             "type": "python",
             "request": "launch",
-            "program": "bugs/tricks.py",
+            "program": "tricks/city.py",
             "console": "integratedTerminal"
         }
     ]

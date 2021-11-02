@@ -79,6 +79,7 @@ class Song(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50), index=True)
     singer_id = db.Column(db.Integer, db.ForeignKey("singer.id"))
+    create_time = db.Column(db.DateTime)
 
     def __repr__(self) -> str:
         return f"Song<{self.name}>"
@@ -96,6 +97,11 @@ class City(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(30), unique=True)
 
+
+class OrderTest(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    create_time = db.Column(db.DateTime)
+    
 
 # flask shell 自动加载return模块
 @app.shell_context_processor
