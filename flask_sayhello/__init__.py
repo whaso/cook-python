@@ -10,3 +10,5 @@ app.jinja_env.lstrip_blocks = True
 db = SQLAlchemy(app)
 
 from flask_sayhello import views, errors, commands
+
+print(f"------root_path---{app.root_path}")
