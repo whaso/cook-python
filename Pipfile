@@ -4,11 +4,9 @@ SQLAlchemy = "==1.4.23"
 Flask = "==2.0.1"
 PyMySQL = "==1.0.2"
 requests-html = "*"
-<<<<<<< HEAD
 python-dotenv = "*"
-=======
 requests = "*"
->>>>>>> 045ae3f1feb1f6c07b8e88e0501d94521f815e4b
+flask-wtf = "*"
 
 [dev-packages]
 
