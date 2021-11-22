@@ -116,6 +116,12 @@ def initdb():
     click.echo("Initialized database.")
 
 
+class torm(db.Model):
+    # __abstract__ = True
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(50))
+
+
 def get_models_dict():
     import sys
     import inspect
