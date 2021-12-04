@@ -15,7 +15,7 @@
             "name": "py",
             "type": "python",
             "request": "launch",
-            "program": "tricks/city.py",
+            "program": "spyders/city.py",
             "console": "integratedTerminal"
         }
     ]
