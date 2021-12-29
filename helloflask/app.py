@@ -18,7 +18,7 @@ db = SQLAlchemy(app)
 
 
 # 定义模型类, 外键定义在多的一侧
-# ========= 一对多 =========
+# ========= 一对多 ==========
 class Note(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     body = db.Column(db.Text)
