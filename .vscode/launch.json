@@ -15,7 +15,7 @@
             "name": "py",
             "type": "python",
             "request": "launch",
-            "program": "spyders/city.py",
+            "program": "app.py",
             "console": "integratedTerminal"
         }
     ]
