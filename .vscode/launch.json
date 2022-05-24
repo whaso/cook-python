@@ -17,6 +17,17 @@
             "request": "launch",
             "program": "app.py",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "tk",
+            "type": "python",
+            "request": "launch",
+            "program": "tricks/trytest.py",
+            "console": "integratedTerminal",
+            "args": [
+                "t1",
+                "t2"
+            ]
         }
     ]
 }

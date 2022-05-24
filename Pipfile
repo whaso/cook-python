@@ -6,6 +6,7 @@ requests-html = "*"
 python-dotenv = "*"
 requests = "*"
 flask-wtf = "*"
+joblib = "*"
 
 [dev-packages]
 

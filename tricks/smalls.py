@@ -22,6 +22,6 @@ def t_dict():
     
     print(l)
 
-
 if __name__ == "__main__":
-    t_dict()
+    # t_dict()
+    t1()
