@@ -92,9 +92,34 @@ def jobTest():
     res = Parallel(n_jobs=3)(delayed(sing)() for i in range(10))
     print(res)
 
+def readXls():
+    import os
+    from xlrd import open_workbook_xls
+    file_path = os.path.abspath(os.path.dirname(__file__)) + "/15位升18位患者清单.xls"
+    workbook = open_workbook_xls(file_path)
+    sheet = workbook.sheet_by_name("SQL Results")
+    rows = sheet.nrows
+    cols = sheet.ncols
+    os.getcwd()
+    count = 0
+    for row in range(1, rows):
+        old_idno, new_idno = sheet.cell(row, 0), sheet.cell(row, 1)
+        print(old_idno.value, new_idno.value, type(old_idno.value))
+        count += 1
+    print(count)
+
+
+def readXML():
+    import os
+    from xml.dom.minidom import parse
+    file_path = os.path.abspath(os.getcwd()) + "/tricks/117531696.xml"
+    dom = parse(file_path)
+    print("xml encoding: ", dom.encoding)
+
+
 
 if __name__ == "__main__":
     # x = 0
     # while (x := x + 1) < 10:
     #     print(x)
-    jobTest()
+    readXML()

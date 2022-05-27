@@ -1,0 +1,2257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XML Type="ListBuilder">
+  <Order No="117531696" DispDate="07.27.2021" Basket="117531696">
+    <Head>
+      <COMM />
+      <ARTICLENO />
+      <CUSTOMER />
+      <CLIENT />
+      <PROGRAM />
+      <EMPLOYEE />
+      <TEXT_LONG />
+      <TEXT_SHORT />
+      <COLOUR1 />
+      <COLOUR2 />
+      <COLOUR3 />
+      <COLOUR4 />
+      <COLOUR5 />
+      <INFO1 />
+      <INFO2 />
+      <INFO3 />
+      <INFO4 />
+      <INFO5 />
+      <INFO6 />
+      <INFO7 />
+      <INFO8 />
+      <INFO9 />
+      <INFO10 />
+      <ADDRESS1 />
+      <ADDRESS2 />
+      <ADDRESS3 />
+      <ADDRESS4 />
+      <ADDRESS5 />
+      <ADDRESS6 />
+      <BILLING_ADDRESS1 />
+      <BILLING_ADDRESS2 />
+      <BILLING_ADDRESS3 />
+      <BILLING_ADDRESS4 />
+      <BILLING_ADDRESS5 />
+      <BILLING_ADDRESS6 />
+      <SHIPPING_ADDRESS1 />
+      <SHIPPING_ADDRESS2 />
+      <SHIPPING_ADDRESS3 />
+      <SHIPPING_ADDRESS4 />
+      <SHIPPING_ADDRESS5 />
+      <SHIPPING_ADDRESS6 />
+      <ORDER_PRICE_INFO1 />
+      <ORDER_PRICE_INFO2 />
+      <ORDER_PRICE_INFO3 />
+      <ORDER_PRICE_INFO4 />
+      <ORDER_PRICE_INFO5 />
+      <CUSTOM_INFO1 />
+      <CUSTOM_INFO2 />
+      <CUSTOM_INFO3 />
+      <CUSTOM_INFO4 />
+      <CUSTOM_INFO5 />
+      <CUSTOM_INFO6 />
+      <CUSTOM_INFO7 />
+      <CUSTOM_INFO8 />
+      <CUSTOM_INFO9 />
+      <CUSTOM_INFO10 />
+    </Head>
+    <BuilderList>
+      <Set LineNo="1">
+        <Pname>Light_LG_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=1468|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=1|CUTD_H:=0|DLR:=1|LCL:=1438|LJH:=350|LJS:=24|LJX:=6|L_R:=0|ZSYLX:=0|GTLX:=|TKTH:=|SP:=0|XXJS:=|XXJX:=|KDSTR:=16224656410526000;16224656410525000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=YQS:92,K8C:,UP:24,DOWN:6,BK:,SKXC:|C01:=FC118103|Pos:=-4348,720.29,950</PVarString>
+        <PInsertion>-4348,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="2">
+        <Pname>Light_LG_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=1468|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=1|EXIST_WJ:=0|CUTD_H:=0|DLR:=1|LCL:=1438|LJH:=350|LJS:=24|LJX:=6|L_R:=0|ZSYLX:=0|GTLX:=|TKTH:=|SP:=0|XXJS:=|XXJX:=|KDSTR:=16224657300408000;16224657300407000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=YQS:92,K8C:,UP:24,DOWN:6,BK:,SKXC:|C01:=FC118103|Pos:=-3873,720.29,950</PVarString>
+        <PInsertion>-3873,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="3">
+        <Pname>Light_LG_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=1468|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=1|EXIST_WJ:=0|CUTD_H:=0|DLR:=1|LCL:=1438|LJH:=350|LJS:=24|LJX:=6|L_R:=0|ZSYLX:=0|GTLX:=|TKTH:=|SP:=0|XXJS:=|XXJX:=|KDSTR:=16224657800517000;16224657800516000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=YQS:92,K8C:,UP:24,DOWN:6,BK:,SKXC:|C01:=FC118103|Pos:=-3398,720.29,950</PVarString>
+        <PInsertion>-3398,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="4">
+        <Pname>Light_LG_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=1468|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=1|EXIST_WJ:=0|CUTD_H:=0|DLR:=1|LCL:=1438|LJH:=350|LJS:=24|LJX:=6|L_R:=0|ZSYLX:=0|GTLX:=|TKTH:=|SP:=0|XXJS:=|XXJX:=|KDSTR:=16259104990027001;16259104990027000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=YQS:92,K8C:,UP:24,DOWN:6,BK:,SKXC:|C01:=FC118103|Pos:=1181.95,720.29,950</PVarString>
+        <PInsertion>1181.95,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="5">
+        <Pname>Light_LG_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=1468|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=1|EXIST_WJ:=0|CUTD_H:=0|DLR:=1|LCL:=1438|LJH:=350|LJS:=24|LJX:=6|L_R:=0|ZSYLX:=0|GTLX:=|TKTH:=|SP:=0|XXJS:=|XXJX:=|KDSTR:=16259105590306000;16259105590305000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=YQS:92,K8C:,UP:24,DOWN:6,BK:,SKXC:|C01:=FC118103|Pos:=706.95,720.29,950</PVarString>
+        <PInsertion>706.95,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="6">
+        <Pname>Light_LG_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=1468|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=1|CUTD_H:=0|DLR:=1|LCL:=1438|LJH:=350|LJS:=24|LJX:=6|L_R:=0|ZSYLX:=0|GTLX:=|TKTH:=|SP:=0|XXJS:=|XXJX:=|KDSTR:=16259107220793000;16259107220792000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=YQS:92,K8C:,UP:24,DOWN:6,BK:,SKXC:|C01:=FC118103|Pos:=231.95,720.29,950</PVarString>
+        <PInsertion>231.95,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="7">
+        <Pname>Light_LG_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=1468|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=1|EXIST_WJ:=0|CUTD_H:=0|DLR:=0|LCL:=1438|LJH:=350|LJS:=24|LJX:=6|L_R:=0|ZSYLX:=0|GTLX:=|TKTH:=|SP:=0|XXJS:=|XXJX:=|KDSTR:=16224656410528000;16224656410525000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=ZQS:92,K8C:,UP:24,DOWN:6,BK:,SKXC:|C01:=FC118103|Pos:=-3900,720.29,950</PVarString>
+        <PInsertion>-3900,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="8">
+        <Pname>Light_LG_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=1468|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=1|EXIST_WJ:=0|CUTD_H:=0|DLR:=0|LCL:=1438|LJH:=350|LJS:=24|LJX:=6|L_R:=0|ZSYLX:=0|GTLX:=|TKTH:=|SP:=0|XXJS:=|XXJX:=|KDSTR:=16224657300410000;16224657300407000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=ZQS:92,K8C:,UP:24,DOWN:6,BK:,SKXC:|C01:=FC118103|Pos:=-3425,720.29,950</PVarString>
+        <PInsertion>-3425,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="9">
+        <Pname>Light_LG_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=1468|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=1|CUTD_H:=0|DLR:=0|LCL:=1438|LJH:=350|LJS:=24|LJX:=6|L_R:=0|ZSYLX:=0|GTLX:=|TKTH:=|SP:=0|XXJS:=|XXJX:=|KDSTR:=16224657800519000;16224657800516000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=ZQS:92,K8C:,UP:24,DOWN:6,BK:,SKXC:|C01:=FC118103|Pos:=-2950,720.29,950</PVarString>
+        <PInsertion>-2950,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="10">
+        <Pname>Light_LG_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=1468|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=1|CUTD_H:=0|DLR:=0|LCL:=1438|LJH:=350|LJS:=24|LJX:=6|L_R:=0|ZSYLX:=0|GTLX:=|TKTH:=|SP:=0|XXJS:=|XXJX:=|KDSTR:=16259104990029000;16259104990027000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=ZQS:92,K8C:,UP:24,DOWN:6,BK:,SKXC:|C01:=FC118103|Pos:=1629.95,720.29,950</PVarString>
+        <PInsertion>1629.95,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="11">
+        <Pname>Light_LG_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=1468|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=1|EXIST_WJ:=0|CUTD_H:=0|DLR:=0|LCL:=1438|LJH:=350|LJS:=24|LJX:=6|L_R:=0|ZSYLX:=0|GTLX:=|TKTH:=|SP:=0|XXJS:=|XXJX:=|KDSTR:=16259105590307000;16259105590305000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=ZQS:92,K8C:,UP:24,DOWN:6,BK:,SKXC:|C01:=FC118103|Pos:=1154.95,720.29,950</PVarString>
+        <PInsertion>1154.95,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="12">
+        <Pname>Light_LG_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=1468|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=1|EXIST_WJ:=0|CUTD_H:=0|DLR:=0|LCL:=1438|LJH:=350|LJS:=24|LJX:=6|L_R:=0|ZSYLX:=0|GTLX:=|TKTH:=|SP:=0|XXJS:=|XXJX:=|KDSTR:=16259107220794000;16259107220792000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=ZQS:92,K8C:,UP:24,DOWN:6,BK:,SKXC:|C01:=FC118103|Pos:=679.95,720.29,950</PVarString>
+        <PInsertion>679.95,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="13">
+        <Pname>LG_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=950|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=0|CUTD_H:=0|KDSTR:=16259102140255000;16259102140253000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=|C01:=F19A7|Pos:=-4348,720.29,0</PVarString>
+        <PInsertion>-4348,720.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="14">
+        <Pname>LG_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=950|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=0|CUTD_H:=0|KDSTR:=16259104310182000;16259104310179000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=|C01:=F19A7|Pos:=231.95,720.29,0</PVarString>
+        <PInsertion>231.95,720.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="15">
+        <Pname>LG_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=2418|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=0|CUTD_H:=0|KDSTR:=16259111260985000;16259111260976000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=|C01:=F19A7|Pos:=-2923,720.29,0</PVarString>
+        <PInsertion>-2923,720.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="16">
+        <Pname>LG_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=925|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=0|CUTD_H:=0|KDSTR:=16259117240065000;16259117240058000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=|C01:=F19A7|Pos:=-1872,720.29,0</PVarString>
+        <PInsertion>-1872,720.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="17">
+        <Pname>LG_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=444|Height:=330|VCABT:=790067|PT:=18|FBTE:=0|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=1|CUTD_H:=0|KDSTR:=16259122490745000;16259122490744000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=|C01:=F19A1|Pos:=-4348,714.29,2418</PVarString>
+        <PInsertion>-4348,714.29,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="18">
+        <Pname>LG_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=444|Height:=330|VCABT:=790067|PT:=18|FBTE:=0|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=1|CUTD_H:=0|KDSTR:=16259123610704000;16259123610703000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=|C01:=F19A1|Pos:=231.95,714.29,2418</PVarString>
+        <PInsertion>231.95,714.29,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="19">
+        <Pname>LG_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=925|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=0|CUTD_H:=0|KDSTR:=16271092920708000;16271092920701000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=|C01:=F19A7|Pos:=-819,721.28,0</PVarString>
+        <PInsertion>-819,721.28,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="20">
+        <Pname>LG_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=950|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=0|CUTD_H:=0|KDSTR:=16259102140257000;16259102140253000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=|C01:=F19A7|Pos:=-2950,720.29,0</PVarString>
+        <PInsertion>-2950,720.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="21">
+        <Pname>LG_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=950|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=0|CUTD_H:=0|KDSTR:=16259104310183000;16259104310179000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=|C01:=F19A7|Pos:=1629.95,720.29,0</PVarString>
+        <PInsertion>1629.95,720.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="22">
+        <Pname>LG_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=925|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=0|CUTD_H:=0|KDSTR:=16259111260986000;16259111260976000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=|C01:=F19A7|Pos:=-1899,720.29,0</PVarString>
+        <PInsertion>-1899,720.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="23">
+        <Pname>LG_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=925|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=0|CUTD_H:=0|KDSTR:=16259117240066000;16259117240058000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=|C01:=F19A7|Pos:=-846,720.29,0</PVarString>
+        <PInsertion>-846,720.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="24">
+        <Pname>LG_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=444|Height:=330|VCABT:=790067|PT:=18|FBTE:=0|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=1|CUTD_H:=0|KDSTR:=16259122490747000;16259122490744000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=|C01:=F19A1|Pos:=-2950,714.29,2418</PVarString>
+        <PInsertion>-2950,714.29,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="25">
+        <Pname>LG_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=444|Height:=330|VCABT:=790067|PT:=18|FBTE:=0|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=1|CUTD_H:=0|KDSTR:=16259123610705000;16259123610703000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=|C01:=F19A1|Pos:=1629.95,714.29,2418</PVarString>
+        <PInsertion>1629.95,714.29,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="26">
+        <Pname>LG_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=450|Height:=2418|VCABT:=790067|PT:=18|FBTE:=1|JGLX:=0|CUTD_D:=0|DT_Pos:=0|HM:=0|Connection:=0|EXIST_WJ:=0|CUTD_H:=0|KDSTR:=16271092920709000;16271092920701000|CUTT_D:=0|CUTT_H:=0|CutOut:=0|BZ1:=|C01:=F19A7|Pos:=205,721.28,0</PVarString>
+        <PInsertion>205,721.28,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="27">
+        <Pname>Wall_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=499|Height:=312|VCABT:=790067|PT:=18|Connection:=1|C01:=F19H22|Pos:=-2932,770.29,2436|HMT:=0|HMB:=0|KDSTR:=16259142080859000;16259142080858000|CUTT_D:=0|CUTT_H:=0|DT_Pos:=0|CutOut:=0|BZ1:=</PVarString>
+        <PInsertion>-2932,770.29,2436</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="28">
+        <Pname>Wall_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=499|Height:=312|VCABT:=790067|PT:=18|Connection:=1|C01:=F19H22|Pos:=-831.05,770.29,2436|HMT:=0|HMB:=0|KDSTR:=16259142600681000;16259142600680000|CUTT_D:=0|CUTT_H:=0|DT_Pos:=0|CutOut:=0|BZ1:=</PVarString>
+        <PInsertion>-831.05,770.29,2436</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="29">
+        <Pname>Wall_SideL</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=499|Height:=312|VCABT:=790067|PT:=18|Connection:=1|C01:=F19H22|Pos:=-1869.05,770.29,2436|HMT:=0|HMB:=0|KDSTR:=16259143150610000;16259143150609000|CUTT_D:=0|CUTT_H:=0|DT_Pos:=0|CutOut:=0|BZ1:=</PVarString>
+        <PInsertion>-1869.05,770.29,2436</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="30">
+        <Pname>Wall_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=499|Height:=312|VCABT:=790067|PT:=18|Connection:=1|C01:=F19H22|Pos:=-1887,770.29,2436|HMT:=0|HMB:=0|KDSTR:=16259142080860000;16259142080858000|CUTT_D:=0|CUTT_H:=0|DT_Pos:=0|CutOut:=0|BZ1:=</PVarString>
+        <PInsertion>-1887,770.29,2436</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="31">
+        <Pname>Wall_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=499|Height:=312|VCABT:=790067|PT:=18|Connection:=1|C01:=F19H22|Pos:=213.95,770.29,2436|HMT:=0|HMB:=0|KDSTR:=16259142600683000;16259142600680000|CUTT_D:=0|CUTT_H:=0|DT_Pos:=0|CutOut:=0|BZ1:=</PVarString>
+        <PInsertion>213.95,770.29,2436</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="32">
+        <Pname>Wall_SideR</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=499|Height:=312|VCABT:=790067|PT:=18|Connection:=1|C01:=F19H22|Pos:=-849.05,770.29,2436|HMT:=0|HMB:=0|KDSTR:=16259143150611000;16259143150609000|CUTT_D:=0|CUTT_H:=0|DT_Pos:=0|CutOut:=0|BZ1:=</PVarString>
+        <PInsertion>-849.05,770.29,2436</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="33">
+        <Pname>SH_TOP_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=430|Depth:=431|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|FBTE:=0|EXIST_JXK:=0|CON_DIR:=1|BackClear:=0|KDBBT:=18|KDSTR:=16224656410531000;16224656410525000|CutOut:=0|JGLX:=0|EXIST_SGT:=1|BZ1:=|C01:=F10A1-1|Pos:=-4330,702.29,2400</PVarString>
+        <PInsertion>-4330,702.29,2400</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="34">
+        <Pname>SH_TOP_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=430|Depth:=431|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|FBTE:=0|EXIST_JXK:=0|CON_DIR:=1|BackClear:=0|KDBBT:=18|KDSTR:=16224657300412000;16224657300407000|CutOut:=0|JGLX:=0|EXIST_SGT:=1|BZ1:=|C01:=F10A1-1|Pos:=-3855,702.29,2400</PVarString>
+        <PInsertion>-3855,702.29,2400</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="35">
+        <Pname>SH_TOP_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=430|Depth:=431|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|FBTE:=0|EXIST_JXK:=0|CON_DIR:=1|BackClear:=0|KDBBT:=18|KDSTR:=16224657800521000;16224657800516000|CutOut:=0|JGLX:=0|EXIST_SGT:=1|BZ1:=|C01:=F10A1-1|Pos:=-3380,702.29,2400</PVarString>
+        <PInsertion>-3380,702.29,2400</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="36">
+        <Pname>SH_TOP_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1380|Depth:=450|Height:=25|VCABT:=790067|PT:=25|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|FBTE:=1|EXIST_JXK:=0|CON_DIR:=0|BackClear:=0|KDBBT:=18|KDSTR:=16259102140258000;16259102140253000|CutOut:=0|JGLX:=0|EXIST_SGT:=1|BZ1:=|C01:=F25-7|Pos:=-4330,702.29,925</PVarString>
+        <PInsertion>-4330,702.29,925</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="37">
+        <Pname>SH_TOP_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1380|Depth:=450|Height:=25|VCABT:=790067|PT:=25|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|FBTE:=1|EXIST_JXK:=0|CON_DIR:=0|BackClear:=0|KDBBT:=18|KDSTR:=16259104310184000;16259104310179000|CutOut:=0|JGLX:=0|EXIST_SGT:=1|BZ1:=|C01:=F25-7|Pos:=249.95,702.29,925</PVarString>
+        <PInsertion>249.95,702.29,925</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="38">
+        <Pname>SH_TOP_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=430|Depth:=431|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|FBTE:=0|EXIST_JXK:=0|CON_DIR:=1|BackClear:=0|KDBBT:=18|KDSTR:=16259104990030001;16259104990027000|CutOut:=0|JGLX:=0|EXIST_SGT:=1|BZ1:=|C01:=F10A1-1|Pos:=1199.95,702.29,2400</PVarString>
+        <PInsertion>1199.95,702.29,2400</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="39">
+        <Pname>SH_TOP_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=430|Depth:=431|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|FBTE:=0|EXIST_JXK:=0|CON_DIR:=1|BackClear:=0|KDBBT:=18|KDSTR:=16259105590308001;16259105590305000|CutOut:=0|JGLX:=0|EXIST_SGT:=1|BZ1:=|C01:=F10A1-1|Pos:=724.95,702.29,2400</PVarString>
+        <PInsertion>724.95,702.29,2400</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="40">
+        <Pname>SH_TOP_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=430|Depth:=431|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|FBTE:=0|EXIST_JXK:=0|CON_DIR:=1|BackClear:=0|KDBBT:=18|KDSTR:=16259107220796000;16259107220792000|CutOut:=0|JGLX:=0|EXIST_SGT:=1|BZ1:=|C01:=F10A1-1|Pos:=249.95,702.29,2400</PVarString>
+        <PInsertion>249.95,702.29,2400</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="41">
+        <Pname>SH_TOP_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1006|Depth:=449|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=|CUTL_W:=|CUTR_D:=|CUTR_W:=|CUTL_DF:=|CUTL_WF:=|CUTR_DF:=|CUTR_WF:=|FBTE:=1|EXIST_JXK:=0|CON_DIR:=0|BackClear:=0|KDBBT:=18|KDSTR:=16259111260992000;16259111260976000|CutOut:=0|JGLX:=0|EXIST_SGT:=1|BZ1:=|C01:=F10A1-4|Pos:=-2905,720.29,907</PVarString>
+        <PInsertion>-2905,720.29,907</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="42">
+        <Pname>SH_TOP_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1008|Depth:=449|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=|CUTL_W:=|CUTR_D:=|CUTR_W:=|CUTL_DF:=|CUTL_WF:=|CUTR_DF:=|CUTR_WF:=|FBTE:=1|EXIST_JXK:=0|CON_DIR:=0|BackClear:=0|KDBBT:=18|KDSTR:=16259117240070003;16259117240058000|CutOut:=0|JGLX:=0|EXIST_SGT:=1|BZ1:=|C01:=F10A1-4|Pos:=-1854,720.29,907</PVarString>
+        <PInsertion>-1854,720.29,907</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="43">
+        <Pname>SH_TOP_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1380|Depth:=443|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|FBTE:=0|EXIST_JXK:=0|CON_DIR:=1|BackClear:=0|KDBBT:=6|KDSTR:=16259122490748000;16259122490744000|CutOut:=0|JGLX:=0|EXIST_SGT:=1|BZ1:=|C01:=F10A1-1|Pos:=-4330,714.29,2730</PVarString>
+        <PInsertion>-4330,714.29,2730</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="44">
+        <Pname>SH_TOP_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1380|Depth:=443|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|FBTE:=0|EXIST_JXK:=0|CON_DIR:=1|BackClear:=0|KDBBT:=6|KDSTR:=16259123610706001;16259123610703000|CutOut:=0|JGLX:=0|EXIST_SGT:=1|BZ1:=|C01:=F10A1-1|Pos:=249.95,714.29,2730</PVarString>
+        <PInsertion>249.95,714.29,2730</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="45">
+        <Pname>SH_TOP_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1006|Depth:=449|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=|CUTL_W:=|CUTR_D:=|CUTR_W:=|CUTL_DF:=|CUTL_WF:=|CUTR_DF:=|CUTR_WF:=|FBTE:=1|EXIST_JXK:=0|CON_DIR:=0|BackClear:=0|KDBBT:=18|KDSTR:=16271092920715000;16271092920701000|CutOut:=0|JGLX:=0|EXIST_SGT:=1|BZ1:=|C01:=F10A1-4|Pos:=-801,721.28,907</PVarString>
+        <PInsertion>-801,721.28,907</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="46">
+        <Pname>BACK18B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=430|Depth:=18|Height:=1468|VCABT:=790067|SECTION:=1|Connection:=0|EXIST:=0|KDSTR:=16224656530963000;16224656410525000|Grain:=0|FDWidthR:=|FDWidthR2:=|BZ1:=|C01:=F19H23|Pos:=-4330,720.29,950</PVarString>
+        <PInsertion>-4330,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="47">
+        <Pname>BACK18B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=430|Depth:=18|Height:=1468|VCABT:=790067|SECTION:=1|Connection:=0|EXIST:=0|KDSTR:=16224657330088000;16224657300407000|Grain:=0|FDWidthR:=|FDWidthR2:=|BZ1:=|C01:=F19H23|Pos:=-3855,720.29,950</PVarString>
+        <PInsertion>-3855,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="48">
+        <Pname>BACK18B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=430|Depth:=18|Height:=1468|VCABT:=790067|SECTION:=1|Connection:=0|EXIST:=0|KDSTR:=16224657930298000;16224657800516000|Grain:=0|FDWidthR:=|FDWidthR2:=|BZ1:=|C01:=F19H23|Pos:=-3380,720.29,950</PVarString>
+        <PInsertion>-3380,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="49">
+        <Pname>BACK18B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1380|Depth:=18|Height:=950|VCABT:=790067|SECTION:=1|Connection:=0|EXIST:=0|KDSTR:=16259102340621000;16259102140253000|Grain:=90|FDWidthR:=|FDWidthR2:=|BZ1:=|C01:=F19H23|Pos:=-4330,720.29,0</PVarString>
+        <PInsertion>-4330,720.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="50">
+        <Pname>BACK18B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1380|Depth:=18|Height:=950|VCABT:=790067|SECTION:=1|Connection:=0|EXIST:=0|KDSTR:=16259104510467000;16259104310179000|Grain:=90|FDWidthR:=|FDWidthR2:=|BZ1:=|C01:=F19H23|Pos:=249.95,720.29,0</PVarString>
+        <PInsertion>249.95,720.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="51">
+        <Pname>BACK18B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=430|Depth:=18|Height:=1468|VCABT:=790067|SECTION:=1|Connection:=0|EXIST:=0|KDSTR:=16259105050850000;16259104990027000|Grain:=0|FDWidthR:=|FDWidthR2:=|BZ1:=|C01:=F19H23|Pos:=1199.95,720.29,950</PVarString>
+        <PInsertion>1199.95,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="52">
+        <Pname>BACK18B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=430|Depth:=18|Height:=1468|VCABT:=790067|SECTION:=1|Connection:=0|EXIST:=0|KDSTR:=16259105630920000;16259105590305000|Grain:=0|FDWidthR:=|FDWidthR2:=|BZ1:=|C01:=F19H23|Pos:=724.95,720.29,950</PVarString>
+        <PInsertion>724.95,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="53">
+        <Pname>BACK18B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=430|Depth:=18|Height:=1468|VCABT:=790067|SECTION:=1|Connection:=0|EXIST:=0|KDSTR:=16259107290578000;16259107220792000|Grain:=0|FDWidthR:=|FDWidthR2:=|BZ1:=|C01:=F19H23|Pos:=249.95,720.29,950</PVarString>
+        <PInsertion>249.95,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="54">
+        <Pname>BACK18B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1005.5|Depth:=18|Height:=273.5|VCABT:=790067|SECTION:=1|Connection:=3|EXIST:=0|KDSTR:=16262324770740000;16259111260976000|Grain:=0|FDWidthR:=|FDWidthR2:=|BZ1:=|C01:=F19H23|Pos:=-2904.75,490.29,633.25</PVarString>
+        <PInsertion>-2904.75,490.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="55">
+        <Pname>BACK18B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1005.5|Depth:=18|Height:=551.5|VCABT:=790067|SECTION:=1|Connection:=3|EXIST:=0|KDSTR:=16262324770874000;16259111260976000|Grain:=0|FDWidthR:=|FDWidthR2:=|BZ1:=|C01:=F19H23|Pos:=-2904.75,720.29,63.25</PVarString>
+        <PInsertion>-2904.75,720.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="56">
+        <Pname>BACK18B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1007.5|Depth:=18|Height:=273.5|VCABT:=790067|SECTION:=1|Connection:=3|EXIST:=0|KDSTR:=16262324370770000;16259117240058000|Grain:=0|FDWidthR:=|FDWidthR2:=|BZ1:=|C01:=F19H23|Pos:=-1853.75,490.29,633.25</PVarString>
+        <PInsertion>-1853.75,490.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="57">
+        <Pname>BACK18B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1007.5|Depth:=18|Height:=551.5|VCABT:=790067|SECTION:=1|Connection:=3|EXIST:=0|KDSTR:=16262324380913000;16259117240058000|Grain:=0|FDWidthR:=|FDWidthR2:=|BZ1:=|C01:=F19H23|Pos:=-1853.75,720.29,63.25</PVarString>
+        <PInsertion>-1853.75,720.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="58">
+        <Pname>BACK18B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1005.5|Depth:=18|Height:=273.5|VCABT:=790067|SECTION:=1|Connection:=3|EXIST:=0|KDSTR:=16271093950082000;16271092920701000|Grain:=0|FDWidthR:=|FDWidthR2:=|BZ1:=|C01:=F19H23|Pos:=-800.75,491.28,633.25</PVarString>
+        <PInsertion>-800.75,491.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="59">
+        <Pname>BACK18B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1005.5|Depth:=18|Height:=551.5|VCABT:=790067|SECTION:=1|Connection:=3|EXIST:=0|KDSTR:=16271093950167000;16271092920701000|Grain:=0|FDWidthR:=|FDWidthR2:=|BZ1:=|C01:=F19H23|Pos:=-800.75,721.28,63.25</PVarString>
+        <PInsertion>-800.75,721.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="60">
+        <Pname>Light_NQD</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=8|Depth:=8|Height:=1438|PT:=13|C01:=FMS0228|Pos:=-4330,370.29,956|VCABT:=720059|NQDLX:=4|L_R:=1|KDSTR:=16259150680296000;16224656410525000</PVarString>
+        <PInsertion>-4330,370.29,956</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="61">
+        <Pname>Light_NQD</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=8|Depth:=8|Height:=1438|PT:=13|C01:=FMS0228|Pos:=-3908,370.29,956|VCABT:=720059|NQDLX:=4|L_R:=0|KDSTR:=16259150770170000;16224656410525000</PVarString>
+        <PInsertion>-3908,370.29,956</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="62">
+        <Pname>Light_NQD</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=8|Depth:=8|Height:=1438|PT:=13|C01:=FMS0228|Pos:=-3855,370.29,956|VCABT:=720059|NQDLX:=4|L_R:=1|KDSTR:=16259150810705000;16224657300407000</PVarString>
+        <PInsertion>-3855,370.29,956</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="63">
+        <Pname>Light_NQD</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=8|Depth:=8|Height:=1438|PT:=13|C01:=FMS0228|Pos:=-3433,370.29,956|VCABT:=720059|NQDLX:=4|L_R:=0|KDSTR:=16259150830047000;16224657300407000</PVarString>
+        <PInsertion>-3433,370.29,956</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="64">
+        <Pname>Light_NQD</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=8|Depth:=8|Height:=1438|PT:=13|C01:=FMS0228|Pos:=-3380,370.29,956|VCABT:=720059|NQDLX:=4|L_R:=1|KDSTR:=16259150850527000;16224657800516000</PVarString>
+        <PInsertion>-3380,370.29,956</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="65">
+        <Pname>Light_NQD</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=8|Depth:=8|Height:=1438|PT:=13|C01:=FMS0228|Pos:=-2958,370.29,956|VCABT:=720059|NQDLX:=4|L_R:=0|KDSTR:=16259150880883000;16224657800516000</PVarString>
+        <PInsertion>-2958,370.29,956</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="66">
+        <Pname>Light_NQD</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=8|Depth:=8|Height:=1438|PT:=13|C01:=FMS0228|Pos:=1621.95,370.29,956|VCABT:=720059|NQDLX:=4|L_R:=0|KDSTR:=16259151040232000;16259104990027000</PVarString>
+        <PInsertion>1621.95,370.29,956</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="67">
+        <Pname>Light_NQD</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=8|Depth:=8|Height:=1438|PT:=13|C01:=FMS0228|Pos:=1199.95,370.29,956|VCABT:=720059|NQDLX:=4|L_R:=1|KDSTR:=16259151090356000;16259104990027000</PVarString>
+        <PInsertion>1199.95,370.29,956</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="68">
+        <Pname>Light_NQD</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=8|Depth:=8|Height:=1438|PT:=13|C01:=FMS0228|Pos:=724.95,370.29,956|VCABT:=720059|NQDLX:=4|L_R:=1|KDSTR:=16259150990326000;16259105590305000</PVarString>
+        <PInsertion>724.95,370.29,956</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="69">
+        <Pname>Light_NQD</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=8|Depth:=8|Height:=1438|PT:=13|C01:=FMS0228|Pos:=1146.95,370.29,956|VCABT:=720059|NQDLX:=4|L_R:=0|KDSTR:=16259151020830000;16259105590305000</PVarString>
+        <PInsertion>1146.95,370.29,956</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="70">
+        <Pname>Light_NQD</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=8|Depth:=8|Height:=1438|PT:=13|C01:=FMS0228|Pos:=249.95,370.29,956|VCABT:=720059|NQDLX:=4|L_R:=1|KDSTR:=16259150930217000;16259107220792000</PVarString>
+        <PInsertion>249.95,370.29,956</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="71">
+        <Pname>Light_NQD</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=8|Depth:=8|Height:=1438|PT:=13|C01:=FMS0228|Pos:=671.95,370.29,956|VCABT:=720059|NQDLX:=4|L_R:=0|KDSTR:=16259150960629000;16259107220792000</PVarString>
+        <PInsertion>671.95,370.29,956</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="72">
+        <Pname>LG_BBOX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1380|Depth:=431|Height:=63|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|BZ1:=|JXFB:=0|C01:=F10A3|C02:=FJ031802|C03:=F10Y2|Pos:=-4330,702.29,0|TKTH:=45|FBTE:=0|LGBOTHS:=22|BMPNUM:=2|QSJXH:=0|HSJXH:=0|KDSTR:=16259102140259000;16259102140253000|CutOut:=0</PVarString>
+        <PInsertion>-4330,702.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="73">
+        <Pname>LG_BBOX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1380|Depth:=431|Height:=63|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|BZ1:=|JXFB:=0|C01:=F10A3|C02:=FJ031802|C03:=F10Y2|Pos:=249.95,702.29,0|TKTH:=45|FBTE:=0|LGBOTHS:=22|BMPNUM:=2|QSJXH:=0|HSJXH:=0|KDSTR:=16259104310185000;16259104310179000|CutOut:=0</PVarString>
+        <PInsertion>249.95,702.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="74">
+        <Pname>LG_BBOX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1006|Depth:=449|Height:=63|VCABT:=790067|PT:=18|CUTL_D:=|CUTL_W:=|CUTR_D:=|CUTR_W:=|BZ1:=|JXFB:=0|C01:=F10A3-4|C02:=FJ031802|C03:=F10Y2|Pos:=-2905,720.29,0|TKTH:=45|FBTE:=1|LGBOTHS:=2|BMPNUM:=0|QSJXH:=0|HSJXH:=0|KDSTR:=16259111260988002;16259111260976000|CutOut:=0</PVarString>
+        <PInsertion>-2905,720.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="75">
+        <Pname>LG_BBOX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1008|Depth:=449|Height:=63|VCABT:=790067|PT:=18|CUTL_D:=|CUTL_W:=|CUTR_D:=|CUTR_W:=|BZ1:=|JXFB:=0|C01:=F10A3-4|C02:=FJ031802|C03:=F10Y2|Pos:=-1854,720.29,0|TKTH:=45|FBTE:=1|LGBOTHS:=2|BMPNUM:=0|QSJXH:=0|HSJXH:=0|KDSTR:=16259117240068000;16259117240058000|CutOut:=0</PVarString>
+        <PInsertion>-1854,720.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="76">
+        <Pname>LG_BBOX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1006|Depth:=449|Height:=63|VCABT:=790067|PT:=18|CUTL_D:=|CUTL_W:=|CUTR_D:=|CUTR_W:=|BZ1:=|JXFB:=0|C01:=F10A3-4|C02:=FJ031802|C03:=F10Y2|Pos:=-801,721.28,0|TKTH:=45|FBTE:=1|LGBOTHS:=2|BMPNUM:=0|QSJXH:=0|HSJXH:=0|KDSTR:=16271092920712002;16271092920701000|CutOut:=0</PVarString>
+        <PInsertion>-801,721.28,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="77">
+        <Pname>SH_FIX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1380|Depth:=431|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|FBTE:=0|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|RADL:=0|RADR:=0|EXIST:=1|KDSTR:=16259102760369000;16259102140253000|CutOut:=0|Connection:=0|BZ1:=|C01:=F10A2|Pos:=-4330,702.29,606</PVarString>
+        <PInsertion>-4330,702.29,606</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="78">
+        <Pname>SH_FIX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1380|Depth:=431|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|FBTE:=0|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|RADL:=0|RADR:=0|EXIST:=1|KDSTR:=16259104730235000;16259104310179000|CutOut:=0|Connection:=0|BZ1:=|C01:=F10A2|Pos:=249.95,702.29,606</PVarString>
+        <PInsertion>249.95,702.29,606</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="79">
+        <Pname>SH_FIX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1006|Depth:=468|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|FBTE:=1|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|RADL:=|RADR:=|EXIST:=1|KDSTR:=16259111260987001;16259111260976000|CutOut:=0|Connection:=0|BZ1:=|C01:=F10A2-1|Pos:=-2905,720.29,615</PVarString>
+        <PInsertion>-2905,720.29,615</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="80">
+        <Pname>SH_FIX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1008|Depth:=468|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|FBTE:=1|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|RADL:=|RADR:=|EXIST:=1|KDSTR:=16259117240067000;16259117240058000|CutOut:=0|Connection:=0|BZ1:=|C01:=F10A2-1|Pos:=-1854,720.29,615</PVarString>
+        <PInsertion>-1854,720.29,615</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="81">
+        <Pname>SH_FIX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1006|Depth:=468|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|FBTE:=1|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|RADL:=|RADR:=|EXIST:=1|KDSTR:=16271092920710001;16271092920701000|CutOut:=0|Connection:=0|BZ1:=|C01:=F10A2-1|Pos:=-801,721.28,615</PVarString>
+        <PInsertion>-801,721.28,615</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="82">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=430|Height:=542.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-3649,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16259103350885000;16259102140253000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-3649,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="83">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=430|Height:=300.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-3649,702.29,624.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259103390098000;16259102140253000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-3649,702.29,624.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="84">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=430|Height:=542.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=930.95,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16259104820900000;16259104310179000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>930.95,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="85">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=430|Height:=300.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=930.95,702.29,624.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259104910911000;16259104310179000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>930.95,702.29,624.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="86">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2718.2,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259152700093000;16259152700092000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2718.2,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="87">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2513.4,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259152720649001;16259152720649000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2513.4,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="88">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2308.6,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259152720691000;16259152720690000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2308.6,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="89">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2103.8,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259152720738000;16259152720737000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2103.8,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="90">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2882,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259152740861001;16259152740861000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2882,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="91">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2841,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259152760650001;16259152760650000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2841,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="92">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2800,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259152760701000;16259152760700000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2800,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="93">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2759,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259152780416001;16259152780416000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2759,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="94">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2677.2,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259152980580000;16259152980579000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2677.2,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="95">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2636.2,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153000640000;16259153000639000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2636.2,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="96">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2595.2,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153010701000;16259153010700000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2595.2,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="97">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2554.2,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153010762000;16259153010761000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2554.2,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="98">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2472.4,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153060422001;16259153060422000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2472.4,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="99">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2431.4,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153080415001;16259153080415000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2431.4,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="100">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2390.4,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153080481000;16259153080480000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2390.4,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="101">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2349.4,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153080552000;16259153080551000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2349.4,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="102">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2267.6,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153120679000;16259153120678000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2267.6,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="103">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2226.6,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153140843001;16259153140843000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2226.6,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="104">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2185.6,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153140919001;16259153140919000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2185.6,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="105">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2144.6,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153140000001;16259153140000000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2144.6,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="106">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2062.8,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16262329430071000;16262329430070000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2062.8,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="107">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2021.8,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16262329460923000;16262329460922000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2021.8,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="108">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1980.8,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16262329460008000;16262329460007000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1980.8,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="109">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1939.8,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16262329500050000;16262329500049000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1939.8,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="110">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2840.5,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262332040738000;16259111260976000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2840.5,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="111">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1981.5,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262332180828000;16259111260976000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1981.5,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="112">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2554.2,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262332660573000;16262332660572000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2554.2,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="113">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2267.9,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262332680308000;16262332680307000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2267.9,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="114">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2792.8,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262332890717000;16262332890716000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2792.8,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="115">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2745.1,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262332920691000;16262332920690000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2745.1,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="116">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2697.4,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262332920797000;16262332920796000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2697.4,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="117">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2649.7,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262332930905000;16262332930904000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2649.7,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="118">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2602,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262332960944000;16262332960943000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2602,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="119">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2506.5,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262333000087000;16262333000086000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2506.5,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="120">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2458.8,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262333020262000;16262333020261000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2458.8,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="121">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2411.1,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262333020378000;16262333020377000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2411.1,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="122">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2363.4,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262333020496000;16262333020495000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2363.4,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="123">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2315.7,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262333020617000;16262333020616000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2315.7,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="124">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2220.2,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262333060817000;16262333060816000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2220.2,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="125">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2172.5,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262333090082000;16262333090081000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2172.5,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="126">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2124.8,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262333090210000;16262333090209000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2124.8,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="127">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2077.1,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262333090340000;16262333090339000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2077.1,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="128">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2029.4,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16262333090472000;16262333090471000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2029.4,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="129">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=229|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2204,490.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271097190876000;16259111260976000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2204,490.29,633.25</PInsertion>
+        <POrntation>0,0,180</POrntation>
+      </Set>
+      <Set LineNo="130">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=229|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-2582,490.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271097270363000;16259111260976000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-2582,490.29,633.25</PInsertion>
+        <POrntation>0,0,180</POrntation>
+      </Set>
+      <Set LineNo="131">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1666.8,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153510328000;16259153510327000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1666.8,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="132">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1461.6,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153530076000;16259153530075000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1461.6,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="133">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1256.4,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153530119001;16259153530119000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1256.4,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="134">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1051.2,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153530165000;16259153530164000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1051.2,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="135">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1831,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153640091000;16259153640090000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1831,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="136">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1790,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153660221001;16259153660221000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1790,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="137">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1749,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153660272000;16259153660271000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1749,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="138">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1708,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153660326000;16259153660325000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1708,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="139">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1625.8,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153740125000;16259153740124000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1625.8,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="140">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1584.8,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153760968000;16259153760967000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1584.8,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="141">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1543.8,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153760028000;16259153760027000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1543.8,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="142">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1502.8,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153760091000;16259153760090000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1502.8,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="143">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1420.6,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153820745001;16259153820745000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1420.6,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="144">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1379.6,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153840202001;16259153840202000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1379.6,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="145">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1338.6,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153840270000;16259153840269000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1338.6,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="146">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1297.6,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153840342000;16259153840341000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1297.6,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="147">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1215.4,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153870601000;16259153870600000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1215.4,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="148">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1174.4,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153900543000;16259153900542000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1174.4,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="149">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1133.4,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153900622000;16259153900621000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1133.4,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="150">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1092.4,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16259153910704001;16259153910704000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1092.4,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="151">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1010.2,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16262329620872001;16262329620872000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1010.2,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="152">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-969.2,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16262329650931000;16262329650930000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-969.2,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="153">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-928.2,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16262329650020000;16262329650019000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-928.2,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="154">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-887.2,472.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16262329650107000;16262329650106000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-887.2,472.29,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="155">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=229|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1151,490.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271096970788000;16259117240058000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1151,490.29,633.25</PInsertion>
+        <POrntation>0,0,180</POrntation>
+      </Set>
+      <Set LineNo="156">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=229|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1531,490.29,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271097050667000;16259117240058000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1531,490.29,633.25</PInsertion>
+        <POrntation>0,0,180</POrntation>
+      </Set>
+      <Set LineNo="157">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1789.5,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101030694000;16259117240058000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1789.5,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="158">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-928.5,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101220367000;16259117240058000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-928.5,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="159">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1502.5,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101310844000;16271101310843000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1502.5,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="160">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1215.5,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101330653001;16271101330653000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1215.5,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="161">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1741.7,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101380197000;16271101380196000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1741.7,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="162">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1693.9,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101410697000;16271101410696000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1693.9,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="163">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1646.1,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101410806000;16271101410805000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1646.1,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="164">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1598.3,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101410918000;16271101410917000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1598.3,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="165">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1550.5,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101410033000;16271101410032000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1550.5,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="166">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1454.7,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101480989000;16271101480988000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1454.7,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="167">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1406.9,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101500328001;16271101500328000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1406.9,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="168">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1359.1,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101500448000;16271101500447000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1359.1,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="169">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1311.3,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101500572000;16271101500571000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1311.3,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="170">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1263.5,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101510694000;16271101510693000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1263.5,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="171">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1167.7,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101560530000;16271101560529000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1167.7,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="172">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1119.9,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101590072001;16271101590072000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1119.9,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="173">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1072.1,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101590202000;16271101590201000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1072.1,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="174">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-1024.3,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101590337000;16271101590336000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-1024.3,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="175">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-976.5,702.29,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271101590473000;16271101590472000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-976.5,702.29,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="176">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=442|Height:=293.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-3649,714.29,2436.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16259123210135000;16259122490744000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-3649,714.29,2436.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="177">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=442|Height:=293.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=930.95,714.29,2436.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16259123780194000;16259123610703000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>930.95,714.29,2436.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="178">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-614.2,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271093800772001;16271093800772000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-614.2,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="179">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-409.4,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271093820884000;16271093820883000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-409.4,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="180">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-204.6,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271093820925001;16271093820925000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-204.6,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="181">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=0.2,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271093820971001;16271093820971000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>0.2,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="182">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-778,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094000808000;16271094000807000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-778,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="183">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-737,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094020206000;16271094020205000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-737,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="184">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-696,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094020258000;16271094020257000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-696,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="185">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-655,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094050913000;16271094050912000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-655,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="186">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-573.2,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094170860000;16271094170859000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-573.2,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="187">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-532.2,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094190727000;16271094190726000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-532.2,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="188">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-491.2,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094190789001;16271094190789000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-491.2,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="189">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-450.2,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094190851000;16271094190850000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-450.2,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="190">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-163.6,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094330704000;16271094330703000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-163.6,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="191">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-122.6,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094350275000;16271094350274000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-122.6,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="192">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-81.6,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094350352000;16271094350351000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-81.6,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="193">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-40.6,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094350430001;16271094350430000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-40.6,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="194">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=41.2,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094400963000;16271094400962000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>41.2,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="195">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=82.2,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094420676000;16271094420675000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>82.2,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="196">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=123.2,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094420761000;16271094420760000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>123.2,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="197">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=164.2,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271094420847000;16271094420846000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>164.2,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="198">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-368.4,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271096240836000;16271096240835000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-368.4,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="199">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-327.4,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271096280674000;16271096280673000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-327.4,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="200">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-286.4,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271096280759000;16271096280758000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-286.4,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="201">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=170|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-245.4,473.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271096280847001;16271096280847000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-245.4,473.28,633.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="202">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=229|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-100,491.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271096400482000;16271092920701000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-100,491.28,633.25</PInsertion>
+        <POrntation>0,0,180</POrntation>
+      </Set>
+      <Set LineNo="203">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=229|Height:=273.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-478,491.28,633.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=0|KDSTR:=16271096680637000;16271092920701000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-478,491.28,633.25</PInsertion>
+        <POrntation>0,0,180</POrntation>
+      </Set>
+      <Set LineNo="204">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-736.5,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098330287000;16271092920701000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-736.5,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="205">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=122.5,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098500176000;16271092920701000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>122.5,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="206">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-450.2,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098640755000;16271098640754000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-450.2,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="207">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-163.9,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098650644000;16271098650643000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-163.9,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="208">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-688.8,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098700552000;16271098700551000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-688.8,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="209">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-641.1,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098730069000;16271098730068000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-641.1,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="210">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-593.4,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098730177000;16271098730176000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-593.4,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="211">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-545.7,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098730287000;16271098730286000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-545.7,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="212">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-498,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098780823000;16271098780822000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-498,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="213">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-402.5,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098850895000;16271098850894000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-402.5,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="214">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-354.8,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098880097000;16271098880096000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-354.8,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="215">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-307.1,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098880216000;16271098880215000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-307.1,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="216">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-259.4,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098880337000;16271098880336000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-259.4,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="217">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-211.7,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098880459000;16271098880458000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-211.7,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="218">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-116.2,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098950157000;16271098950156000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-116.2,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="219">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-68.5,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098980185000;16271098980184000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-68.5,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="220">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=-20.8,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098980315000;16271098980314000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>-20.8,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="221">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=26.9,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098980449001;16271098980449000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>26.9,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="222">
+        <Pname>PARTITION</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=270|Height:=551.5|VCABT:=790067|PT:=18|CUTT_D:=0|CUTT_H:=0|C01:=F19A1|Pos:=74.6,703.28,63.25|CUTD_D:=0|CUTD_H:=0|FBTE:=0|CBLX:=1|Connection:=0|BKQJ:=|WJ_NUM:=2|KDSTR:=16271098980581001;16271098980581000|CutOut:=0|KWCT:=0|BZ1:=</PVarString>
+        <PInsertion>74.6,703.28,63.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="223">
+        <Pname>DR3_PB</Pname>
+        <Count>1</Count>
+        <PVarString>Depth:=418|Height:=151.5|J_L:=-1.25|J_R:=7.75|J_T:=-1.75|J_B:=-1.75|DCH1:=130|DWD1:=418|VCABT2:=790067|S_PULL:=0|EXIST:=0|DR_T:=0|DR_B:=0|DR_L:=0|DR_R:=0|CD11:=ATCM-PB_H|CD12:=FZC031807|CD13:=FZH031808|CD14:=FZD011015|Pos:=-4330,670.29,771.75|MENXIN_1:=0|CSXS3:=687.5|YMH:=0|M03:=|M04:=|VDOOR1:=|LSW:=0|SPULL_NUM:=1|CCPT:=18|S_RAIL:=3|CTBS1:=JKA:CC:16:1|CTBS2:=JKA:CH:16:1|CTBS3:=JKA:CD:16:1|KDSTR:=16262321770508000;16262321770507000|VDOOR:=790067|DWH1:=151.50|DW_INSET:=0|JC1:=24.5|BMPD:=0|Width:=681|S_DRAWER:=1|STANDARD:=1|LSYS:=0|BZ1:=L18N:;R18B:;CX:130</PVarString>
+        <PInsertion>-4330,670.29,771.75</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="224">
+        <Pname>DR3_PB</Pname>
+        <Count>1</Count>
+        <PVarString>Depth:=418|Height:=151.5|J_L:=-1.25|J_R:=7.75|J_T:=-1.75|J_B:=7.25|DCH1:=105|DWD1:=418|VCABT2:=790067|S_PULL:=0|EXIST:=0|DR_T:=0|DR_B:=0|DR_L:=0|DR_R:=0|CD11:=ATCM-PB_H|CD12:=FZC031807|CD13:=FZH031808|CD14:=FZD011015|Pos:=-4330,670.29,616.75|MENXIN_1:=0|CSXS3:=687.5|YMH:=0|M03:=|M04:=|VDOOR1:=|LSW:=0|SPULL_NUM:=1|CCPT:=18|S_RAIL:=3|CTBS1:=JKA:CC:16:2|CTBS2:=JKA:CH:16:2|CTBS3:=JKA:CD:16:2|KDSTR:=16262321840917000;16262321770507000|VDOOR:=790067|DWH1:=151.50|DW_INSET:=0|JC1:=35|BMPD:=0|Width:=681|S_DRAWER:=1|STANDARD:=1|LSYS:=0|BZ1:=L18N:;R18B:;CX:105</PVarString>
+        <PInsertion>-4330,670.29,616.75</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="225">
+        <Pname>DR3_PB</Pname>
+        <Count>1</Count>
+        <PVarString>Depth:=418|Height:=151.5|J_L:=7.75|J_R:=-1.25|J_T:=-1.75|J_B:=-1.75|DCH1:=130|DWD1:=418|VCABT2:=790067|S_PULL:=0|EXIST:=0|DR_T:=0|DR_B:=0|DR_L:=0|DR_R:=0|CD11:=ATCM-PB_H|CD12:=FZC031807|CD13:=FZH031808|CD14:=FZD011015|Pos:=-3631,671.29,771.75|MENXIN_1:=0|CSXS3:=687.49|YMH:=0|M03:=|M04:=|VDOOR1:=|LSW:=0|SPULL_NUM:=1|CCPT:=18|S_RAIL:=3|CTBS1:=JKA:CC:16:3|CTBS2:=JKA:CH:16:3|CTBS3:=JKA:CD:16:3|KDSTR:=16262322310668001;16262322310668000|VDOOR:=790067|DWH1:=151.50|DW_INSET:=0|JC1:=24.5|BMPD:=0|Width:=681|S_DRAWER:=1|STANDARD:=1|LSYS:=0|BZ1:=L18B:;R18N:;CX:130</PVarString>
+        <PInsertion>-3631,671.29,771.75</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="226">
+        <Pname>DR3_PB</Pname>
+        <Count>1</Count>
+        <PVarString>Depth:=418|Height:=151.5|J_L:=7.75|J_R:=-1.25|J_T:=-1.75|J_B:=7.25|DCH1:=105|DWD1:=418|VCABT2:=790067|S_PULL:=0|EXIST:=0|DR_T:=0|DR_B:=0|DR_L:=0|DR_R:=0|CD11:=ATCM-PB_H|CD12:=FZC031807|CD13:=FZH031808|CD14:=FZD011015|Pos:=-3631,671.29,616.75|MENXIN_1:=0|CSXS3:=687.49|YMH:=0|M03:=|M04:=|VDOOR1:=|LSW:=0|SPULL_NUM:=1|CCPT:=18|S_RAIL:=3|CTBS1:=JKA:CC:16:4|CTBS2:=JKA:CH:16:4|CTBS3:=JKA:CD:16:4|KDSTR:=16262322360232000;16262322310668000|VDOOR:=790067|DWH1:=151.50|DW_INSET:=0|JC1:=35|BMPD:=0|Width:=681|S_DRAWER:=1|STANDARD:=1|LSYS:=0|BZ1:=L18B:;R18N:;CX:105</PVarString>
+        <PInsertion>-3631,671.29,616.75</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="227">
+        <Pname>DR3_PB</Pname>
+        <Count>1</Count>
+        <PVarString>Depth:=418|Height:=151.5|J_L:=-1.25|J_R:=7.75|J_T:=-1.75|J_B:=-1.75|DCH1:=130|DWD1:=418|VCABT2:=790067|S_PULL:=0|EXIST:=0|DR_T:=0|DR_B:=0|DR_L:=0|DR_R:=0|CD11:=ATCM-PB_H|CD12:=FZC031807|CD13:=FZH031808|CD14:=FZD011015|Pos:=249.95,670.29,771.75|MENXIN_1:=0|CSXS3:=687.5|YMH:=0|M03:=|M04:=|VDOOR1:=|LSW:=0|SPULL_NUM:=1|CCPT:=18|S_RAIL:=3|CTBS1:=JKA:CC:16:5|CTBS2:=JKA:CH:16:5|CTBS3:=JKA:CD:16:5|KDSTR:=16259120170612001;16259120170612000|VDOOR:=790067|DWH1:=151.50|DW_INSET:=0|JC1:=24.5|BMPD:=0|Width:=681|S_DRAWER:=1|STANDARD:=1|LSYS:=0|BZ1:=L18N:;R18B:;CX:130</PVarString>
+        <PInsertion>249.95,670.29,771.75</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="228">
+        <Pname>DR3_PB</Pname>
+        <Count>1</Count>
+        <PVarString>Depth:=418|Height:=151.5|J_L:=-1.25|J_R:=7.75|J_T:=-1.75|J_B:=7.25|DCH1:=105|DWD1:=418|VCABT2:=790067|S_PULL:=0|EXIST:=0|DR_T:=0|DR_B:=0|DR_L:=0|DR_R:=0|CD11:=ATCM-PB_H|CD12:=FZC031807|CD13:=FZH031808|CD14:=FZD011015|Pos:=249.95,670.29,616.75|MENXIN_1:=0|CSXS3:=687.5|YMH:=0|M03:=|M04:=|VDOOR1:=|LSW:=0|SPULL_NUM:=1|CCPT:=18|S_RAIL:=3|CTBS1:=JKA:CC:16:6|CTBS2:=JKA:CH:16:6|CTBS3:=JKA:CD:16:6|KDSTR:=16259120210361000;16259120170612000|VDOOR:=790067|DWH1:=151.50|DW_INSET:=0|JC1:=35|BMPD:=0|Width:=681|S_DRAWER:=1|STANDARD:=1|LSYS:=0|BZ1:=L18N:;R18B:;CX:105</PVarString>
+        <PInsertion>249.95,670.29,616.75</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="229">
+        <Pname>DR3_PB</Pname>
+        <Count>1</Count>
+        <PVarString>Depth:=418|Height:=151.5|J_L:=7.75|J_R:=-1.25|J_T:=-1.75|J_B:=-1.75|DCH1:=130|DWD1:=418|VCABT2:=790067|S_PULL:=0|EXIST:=0|DR_T:=0|DR_B:=0|DR_L:=0|DR_R:=0|CD11:=ATCM-PB_H|CD12:=FZC031807|CD13:=FZH031808|CD14:=FZD011015|Pos:=948.95,670.29,771.75|MENXIN_1:=0|CSXS3:=687.5|YMH:=0|M03:=|M04:=|VDOOR1:=|LSW:=0|SPULL_NUM:=1|CCPT:=18|S_RAIL:=3|CTBS1:=JKA:CC:16:7|CTBS2:=JKA:CH:16:7|CTBS3:=JKA:CD:16:7|KDSTR:=16259120290001000;16259120290000000|VDOOR:=790067|DWH1:=151.50|DW_INSET:=0|JC1:=24.5|BMPD:=0|Width:=681|S_DRAWER:=1|STANDARD:=1|LSYS:=0|BZ1:=L18B:;R18N:;CX:130</PVarString>
+        <PInsertion>948.95,670.29,771.75</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="230">
+        <Pname>DR3_PB</Pname>
+        <Count>1</Count>
+        <PVarString>Depth:=418|Height:=151.5|J_L:=7.75|J_R:=-1.25|J_T:=-1.75|J_B:=7.25|DCH1:=105|DWD1:=418|VCABT2:=790067|S_PULL:=0|EXIST:=0|DR_T:=0|DR_B:=0|DR_L:=0|DR_R:=0|CD11:=ATCM-PB_H|CD12:=FZC031807|CD13:=FZH031808|CD14:=FZD011015|Pos:=948.95,670.29,616.75|MENXIN_1:=0|CSXS3:=687.5|YMH:=0|M03:=|M04:=|VDOOR1:=|LSW:=0|SPULL_NUM:=1|CCPT:=18|S_RAIL:=3|CTBS1:=JKA:CC:16:8|CTBS2:=JKA:CH:16:8|CTBS3:=JKA:CD:16:8|KDSTR:=16259120330098000;16259120290000000|VDOOR:=790067|DWH1:=151.50|DW_INSET:=0|JC1:=35|BMPD:=0|Width:=681|S_DRAWER:=1|STANDARD:=1|LSYS:=0|BZ1:=L18B:;R18N:;CX:105</PVarString>
+        <PInsertion>948.95,670.29,616.75</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="231">
+        <Pname>AG_Ctop</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1555|Depth:=520|Height:=25|VCABT:=790067|PT:=25|RADL:=0|RADR:=0|RAD3:=0|RAD4:=0|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|BMPD:=0|TPLX:=0|EXIST:=0|KDSTR:=16259118850750000;16259118820857000|CutOut:=0|TC_T:=0|C01:=TM25-1|Pos:=-2904.98,770.29,925.03|BZ1:=</PVarString>
+        <PInsertion>-2904.98,770.29,925.03</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="232">
+        <Pname>AG_Ctop</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1555|Depth:=520|Height:=25|VCABT:=790067|PT:=25|RADL:=0|RADR:=0|RAD3:=0|RAD4:=0|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|BMPD:=0|TPLX:=0|EXIST:=0|KDSTR:=16259119580392000;16259119570770000|CutOut:=0|TC_T:=0|C01:=TM25-1|Pos:=-1349.98,770.29,925.03|BZ1:=</PVarString>
+        <PInsertion>-1349.98,770.29,925.03</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="233">
+        <Pname>SH_BOT</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1380|Depth:=443|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|FBTE:=0|KDSTR:=16259122490750000;16259122490744000|CutOut:=0|BZ1:=|C01:=FG031854|Pos:=-4330,714.29,2418</PVarString>
+        <PInsertion>-4330,714.29,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="234">
+        <Pname>SH_BOT</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1380|Depth:=443|Height:=18|VCABT:=790067|PT:=18|CUTL_D:=0|CUTL_W:=0|CUTR_D:=0|CUTR_W:=0|CUTL_DF:=0|CUTL_WF:=0|CUTR_DF:=0|CUTR_WF:=0|FBTE:=0|KDSTR:=16259123610708000;16259123610703000|CutOut:=0|BZ1:=|C01:=FG031854|Pos:=249.95,714.29,2418</PVarString>
+        <PInsertion>249.95,714.29,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="235">
+        <Pname>BACK05_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1414|Depth:=6|Height:=325|VCABT:=790067|BZ1:=|KDSTR:=16259122490751000;16259122490744000|SECTION:=1|ZYSKC:=0|Grain:=90|FDWidthR:=|FDWidthR2:=|C01:=F10Z1|Pos:=-4347,720.29,2418</PVarString>
+        <PInsertion>-4347,720.29,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="236">
+        <Pname>BACK05_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1414|Depth:=6|Height:=325|VCABT:=790067|BZ1:=|KDSTR:=16259123610709000;16259123610703000|SECTION:=1|ZYSKC:=0|Grain:=90|FDWidthR:=|FDWidthR2:=|C01:=F10Z1|Pos:=232.95,720.29,2418</PVarString>
+        <PInsertion>232.95,720.29,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="237">
+        <Pname>BMBP</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=1468|Width:=1036|Depth:=18|VCABT:=790067|C01:=F18-15|Pos:=-2905,720.29,950|Grain:=0|BZ1:=LE:0,0;RI:0,0|TJBS:=|PT:=18|S_ZXLX:=0|RALT:=0|RART:=0|RALB:=0|RARB:=0|CUTTL_D:=0|CUTTL_H:=0|CUTTR_D:=0|CUTTR_H:=0|CUTDL_D:=0|CUTDL_H:=0|CUTDR_D:=0|CUTDR_H:=0|CUTMT_D:=0|CUTMT_W:=0|CUTMB_D:=0|CUTMB_W:=0|W2:=|H1:=0|W1:=0|W3:=|WJ_NUM:=|KDSTR:=16259124470135000;16259124470135000</PVarString>
+        <PInsertion>-2905,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="238">
+        <Pname>BMBP</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=1468|Width:=1036|Depth:=18|VCABT:=790067|C01:=F18-15|Pos:=-830.99,720.29,950|Grain:=0|BZ1:=LE:0,0;RI:0,0|TJBS:=|PT:=18|S_ZXLX:=0|RALT:=0|RART:=0|RALB:=0|RARB:=0|CUTTL_D:=0|CUTTL_H:=0|CUTTR_D:=0|CUTTR_H:=0|CUTDL_D:=0|CUTDL_H:=0|CUTDR_D:=0|CUTDR_H:=0|CUTMT_D:=0|CUTMT_W:=0|CUTMB_D:=0|CUTMB_W:=0|W2:=|H1:=0|W1:=0|W3:=|WJ_NUM:=|KDSTR:=16259125520775000;16259125520775000</PVarString>
+        <PInsertion>-830.99,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="239">
+        <Pname>BMBP</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=1468|Width:=1038|Depth:=18|VCABT:=790067|C01:=F18-15|Pos:=-1868.99,720.29,950|Grain:=0|BZ1:=LE:0,0;RI:0,0|TJBS:=|PT:=18|S_ZXLX:=0|RALT:=0|RART:=0|RALB:=0|RARB:=0|CUTTL_D:=0|CUTTL_H:=0|CUTTR_D:=0|CUTTR_H:=0|CUTDL_D:=0|CUTDL_H:=0|CUTDR_D:=0|CUTDR_H:=0|CUTMT_D:=0|CUTMT_W:=0|CUTMB_D:=0|CUTMB_W:=0|W2:=|H1:=0|W1:=0|W3:=|WJ_NUM:=|KDSTR:=16259125730216000;16259125730216000</PVarString>
+        <PInsertion>-1868.99,720.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="240">
+        <Pname>BMBP</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=1328|Width:=896|Depth:=18|VCABT:=790067|C01:=F18-15|Pos:=-2834.99,702.29,1020.03|Grain:=0|BZ1:=LE:0,0;RI:0,0|TJBS:=|PT:=18|S_ZXLX:=0|RALT:=0|RART:=0|RALB:=0|RARB:=0|CUTTL_D:=0|CUTTL_H:=0|CUTTR_D:=0|CUTTR_H:=0|CUTDL_D:=0|CUTDL_H:=0|CUTDR_D:=0|CUTDR_H:=0|CUTMT_D:=0|CUTMT_W:=0|CUTMB_D:=0|CUTMB_W:=0|W2:=|H1:=0|W1:=0|W3:=|WJ_NUM:=|KDSTR:=16260546240890000;16260546240890000</PVarString>
+        <PInsertion>-2834.99,702.29,1020.03</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="241">
+        <Pname>BMBP</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=1328|Width:=896|Depth:=18|VCABT:=790067|C01:=F18-15|Pos:=-760.98,702.29,1020.03|Grain:=0|BZ1:=LE:0,0;RI:0,0|TJBS:=|PT:=18|S_ZXLX:=0|RALT:=0|RART:=0|RALB:=0|RARB:=0|CUTTL_D:=0|CUTTL_H:=0|CUTTR_D:=0|CUTTR_H:=0|CUTDL_D:=0|CUTDL_H:=0|CUTDR_D:=0|CUTDR_H:=0|CUTMT_D:=0|CUTMT_W:=0|CUTMB_D:=0|CUTMB_W:=0|W2:=|H1:=0|W1:=0|W3:=|WJ_NUM:=|KDSTR:=16260548200525000;16260548200525000</PVarString>
+        <PInsertion>-760.98,702.29,1020.03</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="242">
+        <Pname>BMBP</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=1328|Width:=898|Depth:=18|VCABT:=790067|C01:=F18-15|Pos:=-1799,702.3,1020.03|Grain:=0|BZ1:=LE:0,0;RI:0,0|TJBS:=|PT:=18|S_ZXLX:=0|RALT:=0|RART:=0|RALB:=0|RARB:=0|CUTTL_D:=0|CUTTL_H:=0|CUTTR_D:=0|CUTTR_H:=0|CUTDL_D:=0|CUTDL_H:=0|CUTDR_D:=0|CUTDR_H:=0|CUTMT_D:=0|CUTMT_W:=0|CUTMB_D:=0|CUTMB_W:=0|W2:=|H1:=0|W1:=0|W3:=|WJ_NUM:=|KDSTR:=16260548520054000;16260548520054000</PVarString>
+        <PInsertion>-1799,702.3,1020.03</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="243">
+        <Pname>BMBP</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=362|Width:=1380|Depth:=18|VCABT:=790067|C01:=F18-15|Pos:=-4330,270.29,2418|Grain:=90|BZ1:=LE:0,0;RI:0,0|TJBS:=|PT:=18|S_ZXLX:=0|RALT:=0|RART:=0|RALB:=0|RARB:=0|CUTTL_D:=0|CUTTL_H:=0|CUTTR_D:=0|CUTTR_H:=0|CUTDL_D:=0|CUTDL_H:=0|CUTDR_D:=0|CUTDR_H:=0|CUTMT_D:=0|CUTMT_W:=0|CUTMB_D:=0|CUTMB_W:=0|W2:=|H1:=0|W1:=0|W3:=|WJ_NUM:=|KDSTR:=16270191870515000;16270191870515000</PVarString>
+        <PInsertion>-4330,270.29,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="244">
+        <Pname>BMBP</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=362|Width:=1380|Depth:=18|VCABT:=790067|C01:=F18-15|Pos:=249.95,270.34,2418|Grain:=90|BZ1:=LE:0,0;RI:0,0|TJBS:=|PT:=18|S_ZXLX:=0|RALT:=0|RART:=0|RALB:=0|RARB:=0|CUTTL_D:=0|CUTTL_H:=0|CUTTR_D:=0|CUTTR_H:=0|CUTDL_D:=0|CUTDL_H:=0|CUTDR_D:=0|CUTDR_H:=0|CUTMT_D:=0|CUTMT_W:=0|CUTMB_D:=0|CUTMB_W:=0|W2:=|H1:=0|W1:=0|W3:=|WJ_NUM:=|KDSTR:=16270192940783000;16270192940783000</PVarString>
+        <PInsertion>249.95,270.34,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="245">
+        <Pname>BMBP</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=362|Width:=1555|Depth:=18|VCABT:=790067|C01:=F18-15|Pos:=-2905.01,270.29,2418|Grain:=90|BZ1:=LE:0,0;RI:0,0|TJBS:=|PT:=18|S_ZXLX:=0|RALT:=0|RART:=0|RALB:=0|RARB:=0|CUTTL_D:=0|CUTTL_H:=0|CUTTR_D:=0|CUTTR_H:=0|CUTDL_D:=0|CUTDL_H:=0|CUTDR_D:=0|CUTDR_H:=0|CUTMT_D:=0|CUTMT_W:=0|CUTMB_D:=0|CUTMB_W:=0|W2:=|H1:=0|W1:=0|W3:=|WJ_NUM:=|KDSTR:=16270193490831000;16270193490831000</PVarString>
+        <PInsertion>-2905.01,270.29,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="246">
+        <Pname>BMBP</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=362|Width:=1555|Depth:=18|VCABT:=790067|C01:=F18-15|Pos:=-1350.06,270.3,2418|Grain:=90|BZ1:=LE:0,0;RI:0,0|TJBS:=|PT:=18|S_ZXLX:=0|RALT:=0|RART:=0|RALB:=0|RARB:=0|CUTTL_D:=0|CUTTL_H:=0|CUTTR_D:=0|CUTTR_H:=0|CUTDL_D:=0|CUTDL_H:=0|CUTDR_D:=0|CUTDR_H:=0|CUTMT_D:=0|CUTMT_W:=0|CUTMB_D:=0|CUTMB_W:=0|W2:=|H1:=0|W1:=0|W3:=|WJ_NUM:=|KDSTR:=16270193910372000;16270193910372000</PVarString>
+        <PInsertion>-1350.06,270.3,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="247">
+        <Pname>Wall_Top</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1027|Depth:=498|Height:=18|VCABT:=790067|PT:=18|Connection:=0|CUTL_W:=0|CUTL_D:=0|CUTR_W:=0|CUTR_D:=0|BZ1:=|C01:=F10A36|Pos:=-2914,770.29,2730|CS1:=1|EXIST_JXK:=0|KDSTR:=16259142080862000;16259142080858000|CutOut:=0</PVarString>
+        <PInsertion>-2914,770.29,2730</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="248">
+        <Pname>Wall_Top</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1027|Depth:=498|Height:=18|VCABT:=790067|PT:=18|Connection:=0|CUTL_W:=0|CUTL_D:=0|CUTR_W:=0|CUTR_D:=0|BZ1:=|C01:=F10A36|Pos:=-813.05,770.29,2730|CS1:=1|EXIST_JXK:=0|KDSTR:=16259142600684000;16259142600680000|CutOut:=0</PVarString>
+        <PInsertion>-813.05,770.29,2730</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="249">
+        <Pname>Wall_Top</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1002|Depth:=498|Height:=18|VCABT:=790067|PT:=18|Connection:=0|CUTL_W:=0|CUTL_D:=0|CUTR_W:=0|CUTR_D:=0|BZ1:=|C01:=F10A36|Pos:=-1851.05,770.29,2730|CS1:=1|EXIST_JXK:=0|KDSTR:=16259143150612001;16259143150609000|CutOut:=0</PVarString>
+        <PInsertion>-1851.05,770.29,2730</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="250">
+        <Pname>Wall_Bot_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1063|Depth:=500|Height:=18|VCABT:=790067|PT:=18|Connection:=0|CUTL_W:=0|CUTL_D:=0|CUTR_W:=0|CUTR_D:=0|BZ1:=|C01:=F10A23|Pos:=-2932,770.29,2418|CS1:=1|EXIST_JXK:=|KDSTR:=16259142080863000;16259142080858000|CutOut:=0</PVarString>
+        <PInsertion>-2932,770.29,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="251">
+        <Pname>Wall_Bot_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1063|Depth:=500|Height:=18|VCABT:=790067|PT:=18|Connection:=0|CUTL_W:=0|CUTL_D:=0|CUTR_W:=0|CUTR_D:=0|BZ1:=|C01:=F10A23|Pos:=-831.05,770.29,2418|CS1:=1|EXIST_JXK:=|KDSTR:=16259142600685000;16259142600680000|CutOut:=0</PVarString>
+        <PInsertion>-831.05,770.29,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="252">
+        <Pname>Wall_Bot_DIY</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1038|Depth:=500|Height:=18|VCABT:=790067|PT:=18|Connection:=0|CUTL_W:=0|CUTL_D:=0|CUTR_W:=0|CUTR_D:=0|BZ1:=|C01:=F10A23|Pos:=-1869.05,770.29,2418|CS1:=1|EXIST_JXK:=|KDSTR:=16259143150614000;16259143150609000|CutOut:=0</PVarString>
+        <PInsertion>-1869.05,770.29,2418</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="253">
+        <Pname>Wall_Back18</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1026.5|Depth:=18|Height:=293.5|VCABT:=790067|Connection:=3|PT:=18|C01:=F19H23-3|Pos:=-2913.75,770.29,2436.25|RALT:=0|RART:=0|RALB:=0|RARB:=0|DWK:=2|KDSTR:=16259142080885001;16259142080858000|Grain:=0|DT_Pos:=0|BZ1:=</PVarString>
+        <PInsertion>-2913.75,770.29,2436.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="254">
+        <Pname>Wall_Back18</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1026.5|Depth:=18|Height:=293.5|VCABT:=790067|Connection:=3|PT:=18|C01:=F19H23-3|Pos:=-812.8,770.29,2436.25|RALT:=0|RART:=0|RALB:=0|RARB:=0|DWK:=2|KDSTR:=16259142600706001;16259142600680000|Grain:=0|DT_Pos:=0|BZ1:=</PVarString>
+        <PInsertion>-812.8,770.29,2436.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="255">
+        <Pname>Wall_Back18</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=1001.5|Depth:=18|Height:=293.5|VCABT:=790067|Connection:=3|PT:=18|C01:=F19H23-3|Pos:=-1850.8,770.29,2436.25|RALT:=0|RART:=0|RALB:=0|RARB:=0|DWK:=2|KDSTR:=16259143150636000;16259143150609000|Grain:=0|DT_Pos:=0|BZ1:=</PVarString>
+        <PInsertion>-1850.8,770.29,2436.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="256">
+        <Pname>Light_LED</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=65|Depth:=65|Height:=14|Pos:=-2433,553.79,2404|VCABTWJ:=2|KDSTR:=16259150500034000;16259142080858000</PVarString>
+        <PInsertion>-2433,553.79,2404</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="257">
+        <Pname>Light_LED</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=65|Depth:=65|Height:=14|Pos:=-332.05,553.79,2404|VCABTWJ:=2|KDSTR:=16259150600041000;16259142600680000</PVarString>
+        <PInsertion>-332.05,553.79,2404</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="258">
+        <Pname>Light_LED</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=65|Depth:=65|Height:=14|Pos:=-1382.55,553.79,2404|VCABTWJ:=2|KDSTR:=16259150560729000;16259143150609000</PVarString>
+        <PInsertion>-1382.55,553.79,2404</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="259">
+        <Pname>KD_ADDPV</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=45|Height:=2780|VCABT:=790067|C01:=LPB-18|Pos:=-4375,252.29,0|BZ1:=|ArcType:=0|RADL:=0|RADR:=0|Grain:=0|CGM:=1|KDSTR:=16259144810381000;16259144810381000|ADDPT:=18</PVarString>
+        <PInsertion>-4375,252.29,0</PInsertion>
+        <POrntation>0,0,90</POrntation>
+      </Set>
+      <Set LineNo="260">
+        <Pname>KD_ADDPV</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=45|Height:=2780|VCABT:=790067|C01:=LPB-18|Pos:=-2950.01,252.3,-0.04|BZ1:=|ArcType:=0|RADL:=0|RADR:=0|Grain:=0|CGM:=1|KDSTR:=16259145220847000;16259145220847000|ADDPT:=18</PVarString>
+        <PInsertion>-2950.01,252.3,-0.04</PInsertion>
+        <POrntation>0,0,90</POrntation>
+      </Set>
+      <Set LineNo="261">
+        <Pname>KD_ADDPV</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=45|Height:=925|VCABT:=790067|C01:=LPB-18|Pos:=-1898.99,252.29,0.03|BZ1:=|ArcType:=0|RADL:=0|RADR:=0|Grain:=0|CGM:=0|KDSTR:=16259145530594000;16259145530594000|ADDPT:=18</PVarString>
+        <PInsertion>-1898.99,252.29,0.03</PInsertion>
+        <POrntation>0,0,90</POrntation>
+      </Set>
+      <Set LineNo="262">
+        <Pname>KD_ADDPV</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=45|Height:=925|VCABT:=790067|C01:=LPB-18|Pos:=-846,252.3,0.01|BZ1:=|ArcType:=0|RADL:=0|RADR:=0|Grain:=0|CGM:=0|KDSTR:=16259145740571000;16259145740571000|ADDPT:=18</PVarString>
+        <PInsertion>-846,252.3,0.01</PInsertion>
+        <POrntation>0,0,90</POrntation>
+      </Set>
+      <Set LineNo="263">
+        <Pname>KD_ADDPV</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=45|Height:=2780|VCABT:=790067|C01:=LPB-18|Pos:=204.95,252.28,-0.03|BZ1:=|ArcType:=0|RADL:=0|RADR:=0|Grain:=0|CGM:=1|KDSTR:=16259145920230000;16259145920230000|ADDPT:=18</PVarString>
+        <PInsertion>204.95,252.28,-0.03</PInsertion>
+        <POrntation>0,0,90</POrntation>
+      </Set>
+      <Set LineNo="264">
+        <Pname>KD_ADDPV</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=45|Height:=2780|VCABT:=790067|C01:=LPB-18|Pos:=1629.93,252.34,0.03|BZ1:=|ArcType:=0|RADL:=0|RADR:=0|Grain:=0|CGM:=1|KDSTR:=16259146130120000;16259146130120000|ADDPT:=18</PVarString>
+        <PInsertion>1629.93,252.34,0.03</PInsertion>
+        <POrntation>0,0,90</POrntation>
+      </Set>
+      <Set LineNo="265">
+        <Pname>KD_ADDPV</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=45|Height:=1468|VCABT:=790067|C01:=LPB-18|Pos:=-3900,252.28,950|BZ1:=|ArcType:=0|RADL:=0|RADR:=0|Grain:=0|CGM:=0|KDSTR:=16259146440462000;16259146440462000|ADDPT:=18</PVarString>
+        <PInsertion>-3900,252.28,950</PInsertion>
+        <POrntation>0,0,90</POrntation>
+      </Set>
+      <Set LineNo="266">
+        <Pname>KD_ADDPV</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=45|Height:=1468|VCABT:=790067|C01:=LPB-18|Pos:=-3425.02,252.29,950|BZ1:=|ArcType:=0|RADL:=0|RADR:=0|Grain:=0|CGM:=0|KDSTR:=16259146640588000;16259146640588000|ADDPT:=18</PVarString>
+        <PInsertion>-3425.02,252.29,950</PInsertion>
+        <POrntation>0,0,90</POrntation>
+      </Set>
+      <Set LineNo="267">
+        <Pname>KD_ADDPV</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=45|Height:=1468|VCABT:=790067|C01:=LPB-18|Pos:=679.94,252.31,950|BZ1:=|ArcType:=0|RADL:=0|RADR:=0|Grain:=0|CGM:=0|KDSTR:=16259146800445000;16259146800445000|ADDPT:=18</PVarString>
+        <PInsertion>679.94,252.31,950</PInsertion>
+        <POrntation>0,0,90</POrntation>
+      </Set>
+      <Set LineNo="268">
+        <Pname>KD_ADDPV</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=18|Depth:=45|Height:=1468|VCABT:=790067|C01:=LPB-18|Pos:=1154.95,252.26,950|BZ1:=|ArcType:=0|RADL:=0|RADR:=0|Grain:=0|CGM:=0|KDSTR:=16259146980580000;16259146980580000|ADDPT:=18</PVarString>
+        <PInsertion>1154.95,252.26,950</PInsertion>
+        <POrntation>0,0,90</POrntation>
+      </Set>
+      <Set LineNo="269">
+        <Pname>FB_JMX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=687.5|Depth:=18|Height:=586.5|Color:=790067|SPUL:=0|C12:=F19M2-F|Pos:=-4328.74,270.31,30.25|YMS:=0|EXIST_WJ:=0|CGM:=0|LFW:=0|Grain:=0|VCABT1:=790067|LSW:=0|L_R:=0|KDSTR:=16259169770189000;16259169770189000|YMX:=8|BZ1:=1L,MJ:0,0,0,0,0,0|BZ2:=|LSYS:=0</PVarString>
+        <PInsertion>-4328.74,270.31,30.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="270">
+        <Pname>FB_JMX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=687.5|Depth:=18|Height:=586.5|Color:=790067|SPUL:=0|C12:=F19M2-F|Pos:=-3638.8,271.3,30.25|YMS:=1|EXIST_WJ:=0|CGM:=0|LFW:=0|Grain:=0|VCABT1:=790067|LSW:=0|L_R:=1|KDSTR:=16259170260804000;16259170260804000|YMX:=8|BZ1:=|BZ2:=1R,MJ:0,0,0,0,0,0|LSYS:=0</PVarString>
+        <PInsertion>-3638.8,271.3,30.25</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="271">
+        <Pname>FB_JMX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=687.5|Depth:=18|Height:=586.5|Color:=790067|SPUL:=0|C12:=F19M2-F|Pos:=251.18,270.29,21.21|YMS:=0|EXIST_WJ:=0|CGM:=0|LFW:=0|Grain:=0|VCABT1:=790067|LSW:=0|L_R:=0|KDSTR:=16260542440273000;16260542440273000|YMX:=8|BZ1:=1L,MJ:0,0,0,0,0,0|BZ2:=|LSYS:=0</PVarString>
+        <PInsertion>251.18,270.29,21.21</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="272">
+        <Pname>FB_JMX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=687.5|Depth:=18|Height:=586.5|Color:=790067|SPUL:=0|C12:=F19M2-F|Pos:=941.19,271.29,21.21|YMS:=1|EXIST_WJ:=0|CGM:=0|LFW:=0|Grain:=0|VCABT1:=790067|LSW:=0|L_R:=1|KDSTR:=16260542710542000;16260542710542000|YMX:=8|BZ1:=|BZ2:=1R,MJ:0,0,0,0,0,0|LSYS:=0</PVarString>
+        <PInsertion>941.19,271.29,21.21</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="273">
+        <Pname>DOOR_B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=501.5|Depth:=18|Height:=586.5|S_PULL:=61|EXIST_WJ:=0|L_R:=0|EXIST:=0|DOOR_LOCK:=0|GEN_HNG:=1|DMP_HNG:=2|OVLL:=3|OVLR:=3|Y1:=105|Y2:=481.5|Y3:=0|Y4:=0|Y5:=0|TJBS:=|C12:=F19M2|Pos:=-1852.75,269.77,26.75|Grain:=0|MENXIN_1:=0|PG1:=0|T_B:=|CGM:=0|MJCBK:=1|LSW:=0|KDSTR:=16262328500056000;16262328500055000|VDOOR:=790067|BRA_HNG:=101|MJ_NUM:=2|S_DOOR:=8|LZQ:=|LSYS:=0|JX:=|BZ1:=1L,MJ:105,481.5,0,0,0,0|BZ2:=</PVarString>
+        <PInsertion>-1852.75,269.77,26.75</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="274">
+        <Pname>DOOR_B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=501.5|Depth:=18|Height:=586.5|S_PULL:=61|EXIST_WJ:=0|L_R:=1|EXIST:=0|DOOR_LOCK:=0|GEN_HNG:=1|DMP_HNG:=2|OVLL:=3|OVLR:=3|Y1:=105|Y2:=481.5|Y3:=0|Y4:=0|Y5:=0|TJBS:=|C12:=F19M2|Pos:=-1348.75,269.77,26.75|Grain:=0|MENXIN_1:=0|PG1:=0|T_B:=|CGM:=0|MJCBK:=1|LSW:=0|KDSTR:=16262328500084001;16262328500055000|VDOOR:=790067|BRA_HNG:=101|MJ_NUM:=2|S_DOOR:=8|LZQ:=|LSYS:=0|JX:=|BZ1:=|BZ2:=1R,MJ:105,481.5,0,0,0,0</PVarString>
+        <PInsertion>-1348.75,269.77,26.75</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="275">
+        <Pname>DOOR_B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=500.5|Depth:=18|Height:=586.5|S_PULL:=61|EXIST_WJ:=0|L_R:=0|EXIST:=0|DOOR_LOCK:=0|GEN_HNG:=1|DMP_HNG:=2|OVLL:=3|OVLR:=3|Y1:=105|Y2:=481.5|Y3:=0|Y4:=0|Y5:=0|TJBS:=|C12:=F19M2|Pos:=-2903.75,269.77,26.75|Grain:=0|MENXIN_1:=0|PG1:=0|T_B:=|CGM:=0|MJCBK:=1|LSW:=0|KDSTR:=16271091770728000;16271091770727000|VDOOR:=790067|BRA_HNG:=101|MJ_NUM:=2|S_DOOR:=8|LZQ:=|LSYS:=0|JX:=|BZ1:=1L,MJ:105,481.5,0,0,0,0|BZ2:=</PVarString>
+        <PInsertion>-2903.75,269.77,26.75</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="276">
+        <Pname>DOOR_B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=500.5|Depth:=18|Height:=586.5|S_PULL:=61|EXIST_WJ:=0|L_R:=1|EXIST:=0|DOOR_LOCK:=0|GEN_HNG:=1|DMP_HNG:=2|OVLL:=3|OVLR:=3|Y1:=105|Y2:=481.5|Y3:=0|Y4:=0|Y5:=0|TJBS:=|C12:=F19M2|Pos:=-2400.75,269.77,26.75|Grain:=0|MENXIN_1:=0|PG1:=0|T_B:=|CGM:=0|MJCBK:=1|LSW:=0|KDSTR:=16271091770751001;16271091770727000|VDOOR:=790067|BRA_HNG:=101|MJ_NUM:=2|S_DOOR:=8|LZQ:=|LSYS:=0|JX:=|BZ1:=|BZ2:=1R,MJ:105,481.5,0,0,0,0</PVarString>
+        <PInsertion>-2400.75,269.77,26.75</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="277">
+        <Pname>DOOR_B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=500.5|Depth:=18|Height:=586.5|S_PULL:=61|EXIST_WJ:=0|L_R:=0|EXIST:=0|DOOR_LOCK:=0|GEN_HNG:=1|DMP_HNG:=2|OVLL:=3|OVLR:=3|Y1:=105|Y2:=481.5|Y3:=0|Y4:=0|Y5:=0|TJBS:=|C12:=F19M2|Pos:=-799.75,270.76,26.75|Grain:=0|MENXIN_1:=0|PG1:=0|T_B:=|CGM:=0|MJCBK:=1|LSW:=0|KDSTR:=16271097440251000;16271097440250000|VDOOR:=790067|BRA_HNG:=101|MJ_NUM:=2|S_DOOR:=8|LZQ:=|LSYS:=0|JX:=|BZ1:=1L,MJ:105,481.5,0,0,0,0|BZ2:=</PVarString>
+        <PInsertion>-799.75,270.76,26.75</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="278">
+        <Pname>DOOR_B</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=500.5|Depth:=18|Height:=586.5|S_PULL:=61|EXIST_WJ:=0|L_R:=1|EXIST:=0|DOOR_LOCK:=0|GEN_HNG:=1|DMP_HNG:=2|OVLL:=3|OVLR:=3|Y1:=105|Y2:=481.5|Y3:=0|Y4:=0|Y5:=0|TJBS:=|C12:=F19M2|Pos:=-296.75,270.76,26.75|Grain:=0|MENXIN_1:=0|PG1:=0|T_B:=|CGM:=0|MJCBK:=1|LSW:=0|KDSTR:=16271097440279001;16271097440250000|VDOOR:=790067|BRA_HNG:=101|MJ_NUM:=2|S_DOOR:=8|LZQ:=|LSYS:=0|JX:=|BZ1:=|BZ2:=1R,MJ:105,481.5,0,0,0,0</PVarString>
+        <PInsertion>-296.75,270.76,26.75</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="279">
+        <Pname>FILLER_L</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=25|Depth:=60|Height:=1798|VCABT:=790067|SECTION:=1|FDWidthR:=|FDWidthR2:=|C01:=F19S7|Pos:=-4373,330.29,950|CGM:=0|KDSTR:=16270194550906000;16270194540435000|PT:=18|S_FILLER:=0</PVarString>
+        <PInsertion>-4373,330.29,950</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="280">
+        <Pname>FILLER_R</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=25|Depth:=60|Height:=2748|VCABT:=790067|SECTION:=1|FDWidthR:=|FDWidthR2:=|C01:=F19S7|Pos:=1647.95,330.29,0|CGM:=1|KDSTR:=16270194560078000;16270194550569000|PT:=18|S_FILLER:=0</PVarString>
+        <PInsertion>1647.95,330.29,0</PInsertion>
+        <POrntation>0,0,0</POrntation>
+      </Set>
+      <Set LineNo="281">
+        <Pname>LGLS</Pname>
+        <Count>1</Count>
+        <PVarString>LGLS36:=16|LGLS43:=0|LGLS50:=0|LGLS61:=0|VCABT:=790067</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="282">
+        <Pname>FQD</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=100|Width:=100|Depth:=100|WJLX:=2</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="283">
+        <Pname>FQD</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=100|Width:=100|Depth:=100|WJLX:=2</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="284">
+        <Pname>FQD</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=100|Width:=100|Depth:=100|WJLX:=2</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="285">
+        <Pname>FQD</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=100|Width:=100|Depth:=100|WJLX:=2</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="286">
+        <Pname>FQD</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=100|Width:=100|Depth:=100|WJLX:=2</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="287">
+        <Pname>FQD</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=100|Width:=100|Depth:=100|WJLX:=2</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="288">
+        <Pname>FQD</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=100|Width:=100|Depth:=100|WJLX:=2</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="289">
+        <Pname>FQD</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=100|Width:=100|Depth:=100|WJLX:=2</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="290">
+        <Pname>FQD</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=100|Width:=100|Depth:=100|WJLX:=2</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="291">
+        <Pname>FQD</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=100|Width:=100|Depth:=100|WJLX:=2</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="292">
+        <Pname>BLTBG_GEN</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=1|Width:=404|Depth:=1</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="293">
+        <Pname>BLTBG_GEN</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=1|Width:=404|Depth:=1</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="294">
+        <Pname>BLTBG_GEN</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=1|Width:=404|Depth:=1</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="295">
+        <Pname>BLTBG_GEN</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=1|Width:=404|Depth:=1</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="296">
+        <Pname>BLTBG_GEN</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=1|Width:=404|Depth:=1</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="297">
+        <Pname>BLTBG_GEN</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=1|Width:=404|Depth:=1</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="298">
+        <Pname>BLTBG_GEN</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=1|Width:=404|Depth:=1</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="299">
+        <Pname>BLTBG_GEN</Pname>
+        <Count>1</Count>
+        <PVarString>Height:=1|Width:=404|Depth:=1</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="300">
+        <Pname>Light_QDQ24</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=100|Height:=100|Depth:=100|Pos:=0,0,0|QUANTITY:=1</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="301">
+        <Pname>Light_QDQ48</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=100|Height:=100|Depth:=100|Pos:=0,0,0|QUANTITY:=1</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="302">
+        <Pname>Light_DYX</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=3122|Height:=38|Depth:=34.5|Pos:=0,0,0</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="303">
+        <Pname>Light_FXH</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=100|Height:=100|Depth:=100|Pos:=0,0,0|QUANTITY:=2</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="304">
+        <Pname>Light_PC</Pname>
+        <Count>1</Count>
+        <PVarString>Width:=100|Height:=100|Depth:=100|Pos:=0,0,0</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+      <Set LineNo="305">
+        <Pname>KD_TP</Pname>
+        <Count>1</Count>
+        <PVarString>VCABT:=790067|W01:=CH10400173|Pos:=0,0,0</PVarString>
+        <PInsertion>
+        </PInsertion>
+        <POrntation>
+        </POrntation>
+      </Set>
+    </BuilderList>
+    <ExtraInfo>
+      <JobInfo>
+        <Catalogs>
+          <CatalogName>DIYHome</CatalogName>
+        </Catalogs>
+      </JobInfo>
+    </ExtraInfo>
+  </Order>
+</XML>
