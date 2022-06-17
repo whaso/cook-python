@@ -3,11 +3,16 @@
 def tryTest():
     try:
         a = 10
-        a["a"]
+        # a["a"]
     except Exception as e:
         print("in exception")
+        return 10
+    else:
+        print("in else")
+        return 20
     finally:
         print("in finally")
+        return 30
 
 
 def outter(func):
@@ -116,10 +121,25 @@ def readXML():
     dom = parse(file_path)
     print("xml encoding: ", dom.encoding)
 
+def reTest(password):
+    import re
+    r = re.compile("^(?:(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])).{8,}$")
+
+def hashTest():
+    import hashlib
+    a = "123"
 
 
 if __name__ == "__main__":
     # x = 0
     # while (x := x + 1) < 10:
     #     print(x)
-    readXML()
+    # readXML()
+    # import re
+    # r = re.compile("^(?:(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])).{8,}$")
+    # hashTest()
+    # a = tryTest()
+    # print(a)
+    
+
+    pass
