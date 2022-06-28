@@ -130,7 +130,43 @@ def hashTest():
     a = "123"
 
 
+def func_out(num1):
+    # 定义一个内部函数
+    def func_inner(num2):
+        # 这里本意想要修改外部num1的值，实际上是在内部函数定义了一个局部变量num1
+        nonlocal num1  # 告诉解释器，此处使用的是 外部变量
+        print(num1)  # 此时是外部的num1
+        # 修改外部变量num1 1 -> 10
+        num1 += 10
+        # 内部函数使用了外部函数的变量(num1)
+        result = num1 + num2
+        print("结果是:", result)
+
+    print(num1)
+    func_inner(1)
+    print(num1)
+
+    # 外部函数返回了内部函数，这里返回的内部函数就是闭包
+    return func_inner
+
+
+class Outter:
+    def __init__(self, f) -> None:
+        print("init")
+        self.f = f
+
+    def __call__(self, *args, **kwargs) -> None:
+        self.f(*args, **kwargs)
+        print("f")
+
+
+@Outter
+def class_pp():
+    print("class pp")
+
+
 if __name__ == "__main__":
+    print("main start")
     # x = 0
     # while (x := x + 1) < 10:
     #     print(x)
@@ -140,6 +176,6 @@ if __name__ == "__main__":
     # hashTest()
     # a = tryTest()
     # print(a)
-    
+    class_pp()
 
-    pass
+    print("main end")
