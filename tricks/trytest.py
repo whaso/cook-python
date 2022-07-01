@@ -165,8 +165,52 @@ def class_pp():
     print("class pp")
 
 
+def bubble(l):
+    n = len(l)
+    if n <= 1:
+        print(l)
+        return
+
+    for i in range(n-1):
+        for j in range(n-i-1):
+            if l[j] > l[j+1]:
+                l[j], l[j+1] = l[j+1], l[j]
+    print(l)
+
+def select_sort(l):
+    n = len(l)
+    if n <= 1:
+        print(l)
+    
+    for i in range(n-1):
+        min_idx = i
+        for j in range(i, n):
+            if l[j] < l[min_idx]:
+                min_idx = j
+            l[min_idx], l[j] = l[j], l[min_idx]
+    print(l)
+
+def insert_sort(l):
+    n = len(l)
+    if n <= 1:
+        print(l)
+        return
+    
+    for i in range(1, n):
+        while i > 0:
+            if l[i] < l[i-1]:
+                l[i], l[i-1] = l[i-1], l[i]
+                print(l)
+                i -= 1
+            else:
+                break
+            
+    print(l)
+
+
 if __name__ == "__main__":
     print("main start")
+    insert_sort([1, 3, 5, 2, 9, 23, 23, 32, 12, 2, 0])
     # x = 0
     # while (x := x + 1) < 10:
     #     print(x)
@@ -176,6 +220,6 @@ if __name__ == "__main__":
     # hashTest()
     # a = tryTest()
     # print(a)
-    class_pp()
+    # class_pp()
 
     print("main end")
