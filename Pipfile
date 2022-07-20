@@ -10,6 +10,7 @@ joblib = "*"
 xlrd = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [[source]]
 url = "https://pypi.doubanio.com/simple"
