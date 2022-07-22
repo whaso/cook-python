@@ -6,7 +6,6 @@ from typing import NamedTuple
 from jinja2 import Template
 
 
-
 def render_movies_j2(username, movies):
     _MOVIES_TMPL = """
     Welcome, {{username}}.
