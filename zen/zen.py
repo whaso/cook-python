@@ -1,5 +1,7 @@
-from textwrap import dedent
 import timeit
+from enum import Enum
+from textwrap import dedent
+from typing import NamedTuple
 
 from jinja2 import Template
 
@@ -63,6 +65,20 @@ def t2():
     join_spend = timeit.timeit(setup="from __main__ import str_join", stmt="str_join(WORDS)", globals=globals())
     print("join_spend:", join_spend)
 
+
+class myEnum(int, Enum):
+    # 在定义枚举类型时，如果同时继承一些基础类型，比如str、int
+    # 枚举类型就能同时充当该基础类型使用。
+    VIP = 3
+    BANNED = 13
+
+
+class Address(NamedTuple):
+    country: str
+    province: str
+    city: str
+
+addr = Address("道外区", "黑龙江", "哈尔滨")
 
 if __name__ == "__main__":
     t = t2
