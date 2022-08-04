@@ -3,6 +3,7 @@
 def tryTest():
     try:
         a = 10
+        None["1"]
         # a["a"]
     except Exception as e:
         print("in exception")
@@ -210,7 +211,9 @@ def insert_sort(l):
 
 if __name__ == "__main__":
     print("main start")
-    insert_sort([1, 3, 5, 2, 9, 23, 23, 32, 12, 2, 0])
+
+
+    # insert_sort([1, 3, 5, 2, 9, 23, 23, 32, 12, 2, 0])
     # x = 0
     # while (x := x + 1) < 10:
     #     print(x)
@@ -222,4 +225,5 @@ if __name__ == "__main__":
     # print(a)
     # class_pp()
 
+    tryTest()
     print("main end")
