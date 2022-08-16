@@ -237,14 +237,33 @@ def input_a_number_with_pydantic():
     print(f"Your number is {number}")
 
 
-a = 1
+# 元类，一种特殊的类
+# 类可以控制实例的创建过程
+# 元类可以控制类的创建过程
+_validators = {}
 
-def test():
-    print(a)
-    a = 2
+class ValidatorMeta(type):
+    """元类：统一注册所有校验器类，方便后续使用"""
 
-def test1():
-    print(a)
+    def __new__(cls, name, bases, attrs):
+        ret = super().__new__(cls, name, bases, attrs)
+        print((f"new class\n  name: {name} type: {type(name)}\n"
+               f"  bases: {bases} type: {type(bases)}\n"
+               f"  attrs:{attrs} type: {type(attrs)}\n"))
+        _validators[attrs["name"]] = ret
+        return ret
+
+
+class StringValidator(metaclass=ValidatorMeta):
+    name = "string"
+
+
+class IntegerValidator(metaclass=ValidatorMeta):
+    name = "int"
+
+
 
 if __name__ == "__main__":
-    test()
+    print("ZEN STARTING......................................")
+    pass
+    print("THE END OF ZEN....................................")
