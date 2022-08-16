@@ -237,6 +237,14 @@ def input_a_number_with_pydantic():
     print(f"Your number is {number}")
 
 
+a = 1
+
+def test():
+    print(a)
+    a = 2
+
+def test1():
+    print(a)
 
 if __name__ == "__main__":
-    input_a_number_with_pydantic()
+    test()

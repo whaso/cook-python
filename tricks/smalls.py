@@ -22,6 +22,14 @@ def t_dict():
     
     print(l)
 
+
+a = 10
+
+def test():
+    print(a)
+
+    a = 20
+
 if __name__ == "__main__":
     # t_dict()
-    t1()
+    test()
