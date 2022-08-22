@@ -262,8 +262,53 @@ class IntegerValidator(metaclass=ValidatorMeta):
     name = "int"
 
 
+# 装饰器模式（与python装饰器不是一个东西！）
+#    设计一个统一的接口
+#    编写多个符合该接口的装饰器类，每个类只实现一个简单的功能
+#    通过组合的方式嵌套使用这些装饰器类
+#    通过类之间的层层包装来实现复杂的功能
+class Numbers:
+    """ 一个包含多个数字的简单类 """
+    
+    def __init__(self, numbers):
+        self.numbers = numbers
+
+    def get(self):
+        return self.numbers
+
+
+class EvenOnlyDecorator:
+    """ 装饰器类：过滤所有偶数 """
+
+    def __init__(self, decorated):
+        self.decorated = decorated
+
+    def get(self):
+        return [num for num in self.decorated.get() if num % 2 == 0]
+
+
+class GreaterThanDecorator:
+    """ 装饰器类：过滤大于某个数的数 """
+
+    def __init__(self, decorated, min_value):
+        self.decorated = decorated
+        self.min_value = min_value
+
+    def get(self):
+        return [num for num in self.decorated.get() if num > self.min_value]
+
+
+def t5():
+    obj = Numbers([42, 12, 3, 25, 22, 82, 73])
+    even_obj = EvenOnlyDecorator(obj)
+    print(even_obj.get())
+    gt_obj = GreaterThanDecorator(even_obj, min_value=30)
+    print(gt_obj.get())
+
+
+
 
 if __name__ == "__main__":
-    print("ZEN STARTING......................................")
-    pass
-    print("THE END OF ZEN....................................")
+    print("................ZEN STARTING...................")
+    t5()
+    print("...............THE END OF ZEN..................")
