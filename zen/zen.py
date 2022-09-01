@@ -77,6 +77,12 @@ class myEnum(int, Enum):
     VIP = 3
     BANNED = 13
 
+class myDictEnum(dict, Enum):
+    # 在定义枚举类型时，如果同时继承一些基础类型，比如str、int
+    # 枚举类型就能同时充当该基础类型使用。
+    VIP = {}
+    BANNED = {}
+
 
 class Address(NamedTuple):
     country: str
@@ -311,4 +317,4 @@ def t5():
 if __name__ == "__main__":
     print("................ZEN STARTING...................")
     t5()
-    print("...............THE END OF ZEN..................")
+    print("...................THE END.....................")
