@@ -245,27 +245,27 @@ def input_a_number_with_pydantic():
 
 # 元类，一种特殊的类
 # 类可以控制实例的创建过程
-# 元类可以控制类的创建过程
-_validators = {}
+# # 元类可以控制类的创建过程
+# _validators = {}
 
-class ValidatorMeta(type):
-    """元类：统一注册所有校验器类，方便后续使用"""
+# class ValidatorMeta(type):
+#     """元类：统一注册所有校验器类，方便后续使用"""
 
-    def __new__(cls, name, bases, attrs):
-        ret = super().__new__(cls, name, bases, attrs)
-        print((f"new class\n  name: {name} type: {type(name)}\n"
-               f"  bases: {bases} type: {type(bases)}\n"
-               f"  attrs:{attrs} type: {type(attrs)}\n"))
-        _validators[attrs["name"]] = ret
-        return ret
-
-
-class StringValidator(metaclass=ValidatorMeta):
-    name = "string"
+#     def __new__(cls, name, bases, attrs):
+#         ret = super().__new__(cls, name, bases, attrs)
+#         print((f"new class\n  name: {name} type: {type(name)}\n"
+#                f"  bases: {bases} type: {type(bases)}\n"
+#                f"  attrs:{attrs} type: {type(attrs)}\n"))
+#         _validators[attrs["name"]] = ret
+#         return ret
 
 
-class IntegerValidator(metaclass=ValidatorMeta):
-    name = "int"
+# class StringValidator(metaclass=ValidatorMeta):
+#     name = "string"
+
+
+# class IntegerValidator(metaclass=ValidatorMeta):
+#     name = "int"
 
 
 # 装饰器模式（与python装饰器不是一个东西！）
@@ -312,9 +312,77 @@ def t5():
     print(gt_obj.get())
 
 
+class Robot:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self) -> str:
+        return f"Robot<{self.name}:{self.age}>"
+    
+    def __setattr__(self, __name: str, __value: int) -> None:
+        if __name == "age":
+            if __value > 90:
+                raise ValueError("Robot Age Must LT 90!")
+        super().__setattr__(__name, __value)
+
+
+def t6():
+    a = Robot("A", 30)
+    print(a)
+    a.__dict__.update(dict(
+        age=100,
+        name="B"
+    ))
+    print(a)
+    a.age = 100
+
+
+class InfoDumperMixin:
+    """ 输出当前实例信息 """
+
+    def dump_info(self):
+        d = self.__dict__
+        print(f"Number of members: {len(d)}")
+        print("Details:")
+        for k, v in d.items():
+            print(f" - {k}: {v}")
+
+
+class Person(InfoDumperMixin):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+
+def t7():
+    p = Person("jack", 20)
+    p.dump_info()
+
+
+class Validator:
+    """ 校验器基类：统一注册所有校验器类，方便后续使用 """
+    _validators = {}
+
+    def __init_subclass__(cls, **kwargs):
+        print(f"{cls.__name__} registered, extra kwargs: {kwargs}")
+        Validator._validators[cls.__name__] = cls
+
+
+class StringValidator(Validator, foo="bar"):
+    name = "string"
+
+
+class IntegerValidator(Validator):
+    name = "int"
+
+
+def t8():
+    print(Validator._validators)
+
 
 
 if __name__ == "__main__":
     print("................ZEN STARTING...................")
-    t5()
+    t8()
     print("...................THE END.....................")
