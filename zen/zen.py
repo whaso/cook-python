@@ -77,6 +77,7 @@ class myEnum(int, Enum):
     VIP = 3
     BANNED = 13
 
+
 class myDictEnum(dict, Enum):
     # 在定义枚举类型时，如果同时继承一些基础类型，比如str、int
     # 枚举类型就能同时充当该基础类型使用。
@@ -88,6 +89,7 @@ class Address(NamedTuple):
     country: str
     province: str
     city: str
+
 
 addr = Address("道外区", "黑龙江", "哈尔滨")
 
@@ -111,6 +113,7 @@ class UserCollectionNew(UserCollection):
     
     def __len__(self):
         return len(self.items)
+
 
 users_new = UserCollectionNew(["A", "B"])
 
@@ -186,6 +189,7 @@ def all_numbers_bt_10(numbers):
     """判断序列所有数字都大于10"""
     return bool(numbers) and all(n > 10 for n in numbers)
 
+
 # or 短路求值 True or (1 / 0)
 context = {}
 extra_context = None
@@ -217,6 +221,7 @@ class DummyContext:
         print("Exiting DummyContext")
         return True
 
+
 def t3():
     with DummyContext("foo") as name:
         print(f"in dummycontext")
@@ -227,6 +232,7 @@ def t3():
 class NumberInput(BaseModel):
     # 使用类型注解 conint 定义 number 属性的取值范围
     number: conint(ge=0, le=100)
+
 
 def input_a_number_with_pydantic():
     while True:
