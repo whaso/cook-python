@@ -387,6 +387,18 @@ def t8():
     print(Validator._validators)
 
 
+"""
+SOLID设计原则
+    S: single responsibility principle(SRP, 单一职责原则)
+    O: open-closed principle (OCP, 开放关闭原则)
+    L: Liskov substitution principle (LSP, 里式替换原则)
+    I: interface segregation principle (ISP, 接口隔离原则)
+    D: dependency inversion principle (DIP, 依赖倒置原则)
+"""
+
+
+
+
 
 if __name__ == "__main__":
     print("................ZEN STARTING...................")
