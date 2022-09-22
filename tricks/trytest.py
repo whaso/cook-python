@@ -3,7 +3,7 @@
 def tryTest():
     try:
         a = 10
-        None["1"]
+        # None["1"]
         # a["a"]
     except Exception as e:
         print("in exception")
@@ -209,6 +209,20 @@ def insert_sort(l):
     print(l)
 
 
+def weakTry():
+    import weakref
+    a = {1, 2}
+    print(a)
+    b = weakref.ref(a)
+    print(b)
+    print(b())
+    a = 3
+    print("===赋值后===")
+    print(b())
+    print(b())
+    print(b())
+
+
 if __name__ == "__main__":
     print("main start")
 
@@ -225,5 +239,5 @@ if __name__ == "__main__":
     # print(a)
     # class_pp()
 
-    tryTest()
+    weakTry()
     print("main end")
