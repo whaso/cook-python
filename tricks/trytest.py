@@ -1,4 +1,6 @@
-
+import copy
+import random
+import logging
 
 def tryTest():
     try:
@@ -208,9 +210,59 @@ def insert_sort(l):
     print(l)
 
 
+def quick_sort(l, first, last):
+    print(l)
+    if first >= last:
+        print(l)
+        return
+
+    min_idx = first
+    max_idx = last
+
+    mid_value = l[min_idx]
+
+    while min_idx < max_idx:
+        while min_idx < max_idx and l[max_idx] >= mid_value:
+            max_idx -= 1
+        l[min_idx] = l[max_idx]
+        print(l)
+
+        while min_idx < max_idx and l[min_idx] < mid_value:
+            min_idx += 1
+        l[max_idx] = l[min_idx]
+        print(l)
+    print(min_idx, max_idx)
+    l[min_idx] = mid_value
+    print(l)
+
+    quick_sort(l, first, min_idx-1)
+    quick_sort(l, min_idx+1, last)
+    print(l)
+
+
+def binery_search(l, i):
+    if not l:
+        return False
+    
+    n = len(l)
+    mid = n // 2
+    if l[mid] == i:
+        return True
+    elif l[mid] > i:
+        return binery_search(l[:mid], i)
+    else:
+        return binery_search(l[mid+1:], i)
+
+
 if __name__ == "__main__":
     print("main start")
-    insert_sort([1, 3, 5, 2, 9, 23, 23, 32, 12, 2, 0])
+    l = [random.randint(0, 100) for _ in range(20)]
+    n = len(l)
+    lc = copy.deepcopy(l)
+    quick_sort(l, 0, n-1)
+    print(l)
+    print(sorted(l))
+    print(binery_search(l, 12))
     # x = 0
     # while (x := x + 1) < 10:
     #     print(x)
@@ -223,3 +275,4 @@ if __name__ == "__main__":
     # class_pp()
 
     print("main end")
+    logging.info("sdf")
