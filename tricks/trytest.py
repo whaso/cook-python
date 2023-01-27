@@ -5,6 +5,7 @@ import logging
 def tryTest():
     try:
         a = 10
+        None["1"]
         # a["a"]
     except Exception as e:
         print("in exception")
@@ -256,13 +257,9 @@ def binery_search(l, i):
 
 if __name__ == "__main__":
     print("main start")
-    l = [random.randint(0, 100) for _ in range(20)]
-    n = len(l)
-    lc = copy.deepcopy(l)
-    quick_sort(l, 0, n-1)
-    print(l)
-    print(sorted(l))
-    print(binery_search(l, 12))
+
+
+    # insert_sort([1, 3, 5, 2, 9, 23, 23, 32, 12, 2, 0])
     # x = 0
     # while (x := x + 1) < 10:
     #     print(x)
@@ -274,5 +271,5 @@ if __name__ == "__main__":
     # print(a)
     # class_pp()
 
+    tryTest()
     print("main end")
-    logging.info("sdf")

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>TITLE</title>
+</head>
+<body>
+    <label>聊天内容:</label><br />
+    <textarea id="content" style="height: 200px; width:300px;"></textarea>
+    <br />
+</body>
+<script src="https://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+<script src="./node_modules/socket.io/client-dist/socket.io.js"></script>
+<link rel="stylesheet" href="//cdn.staticfile.org/jquery-weui/1.2.0/css/jquery-weui.min.css">
+<script src="//cdn.staticfile.org/jquery-weui/1.2.0/js/jquery-weui.min.js"></script>
+<script type="text/javascript">
+    var websocket_url = 'http://' + document.domain + ':' + location.port + '/testnamespace';
+    console.log(websocket_url)
+    //没错是用http开头的url了，因为这个库会自动解析并帮我们创建websocket对象的
+    //最后的namespace是websocket中的命名空间，后面再讲
+    var socket = io.connect(websocket_url);
+    //发送消息
+    socket.emit('request_for_response',{'param':'value'});
+    //监听回复的消息
+    socket.on('response',function(data){
+        if (data.code == '200'){
+            //给服务端发送 sendMsg事件名的消息
+            // socket.emit("sendMsg", data);
+            content.value += data.msg + "\r\n";
+            // alert(data.msg);
+        }
+        else{
+            alert('ERROR:' + data.msg);
+        }
+    });
+</script>
+</html>

@@ -26,6 +26,17 @@
             "console": "integratedTerminal",
             "args": [
             ]
+        },
+        {
+            "name": "zen",
+            "type": "python",
+            "request": "launch",
+            "program": "zen/zen.py",
+            "console": "integratedTerminal",
+            // "args": [
+            //     "t1",
+            //     "t2"
+            // ]
         }
     ]
 }
