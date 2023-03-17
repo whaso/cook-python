@@ -396,6 +396,48 @@ SOLID设计原则
     D: dependency inversion principle (DIP, 依赖倒置原则)
 """
 
+import io, sys
+from typing import Iterable, TextIO
+
+import requests
+from lxml import etree
+
+
+class Post:
+    """Hacker News 上的条目
+
+    :param title: 标题
+    :param link: 链接
+    :param points: 当前得分
+    : param comments_cnt: 评论数
+    """
+
+    def __init__(self, title: str, link: str, points: str, comments_cnt: str):
+        self.title = title
+        self.link = link
+        self.points = int(points)
+        self.comments_cnt = int(comments_cnt)
+
+
+class HNTopPostsSpider:
+    """抓取 Hacker News Top 内容条目
+
+    :param fp: 存储抓取结果的目标文件对象
+    :param limit: 限制条目数，默认为 5
+    """
+
+    def __init__(self, fp: TextIO, limit: int = 5):
+        self.fp = fp
+        self.limit = limit
+
+    def write_to_file(self):
+        """以纯文本格式将 Hacker News Top 内容写入文件"""
+        self.fp.write(f"#{self.file_title}\n\n")
+        for i, post in enumerate(self.fetch(), 1):
+            self.fp.write(f"> TOP {i}: {post.title}\n")
+            self.fp.write(f"> 分数：{post.points} 评论数：{post.comments_cnt}\n")
+            self.fp.write(f"> 地址：{post.link}\n")
+
 
 
 
