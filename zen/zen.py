@@ -6,7 +6,11 @@ from enum import Enum
 from textwrap import dedent
 from typing import NamedTuple
 from contextlib import contextmanager
+import sys
+from typing import Iterable, TextIO
 
+import requests
+from lxml import etree
 from jinja2 import Template
 from requests.exceptions import RequestException
 from pydantic import BaseModel, conint, ValidationError
@@ -396,12 +400,6 @@ SOLID设计原则
     D: dependency inversion principle (DIP, 依赖倒置原则)
 """
 
-import io, sys
-from typing import Iterable, TextIO
-
-import requests
-from lxml import etree
-
 
 class Post:
     """Hacker News 上的条目
@@ -409,7 +407,7 @@ class Post:
     :param title: 标题
     :param link: 链接
     :param points: 当前得分
-    : param comments_cnt: 评论数
+    :param comments_cnt: 评论数
     """
 
     def __init__(self, title: str, link: str, points: str, comments_cnt: str):
@@ -426,6 +424,9 @@ class HNTopPostsSpider:
     :param limit: 限制条目数，默认为 5
     """
 
+    items_url = "https://news.ycombinator.com/"
+    file_title = "Top news on HN"
+
     def __init__(self, fp: TextIO, limit: int = 5):
         self.fp = fp
         self.limit = limit
@@ -438,11 +439,44 @@ class HNTopPostsSpider:
             self.fp.write(f"> 分数：{post.points} 评论数：{post.comments_cnt}\n")
             self.fp.write(f"> 地址：{post.link}\n")
 
+    def fetch(self) -> Iterable[Post]:
+        """从Hacker News 抓取Top内容
+
+        Returns:
+            []: 可迭代Post对象
+        """
+        proxies = {
+            "http": "http://127.0.0.1:7890",
+            "https": "http://127.0.0.1:7890",
+        }
+        proxy_rules = [
+            "news.ycombinator.com",
+        ]
+        use_proxy = False
+        for i in proxy_rules:
+            if i in self.items_url:
+                use_proxy = True
+        resp = requests.get(self.items_url, proxies=proxies if use_proxy else {})
+        # 使用XPath解析页面内容
+        html = etree.HTML(resp.text)
+        items = html.xpath("//table/tr[@class='athing']")
+        for item in items[:self.limit]:
+            node_title = item.xpath("./td[@class='title'][last()]/span/a")[0]
+            node_detail = item.getnext()
+            points_text = node_detail.xpath("./td[last()]/span/span[@class='score']/text()")[0]
+            comments_text = node_detail.xpath("./td[last()]/span/a[last()]/text()")[0]
+            yield Post(title=node_title.text,
+                       link=node_title.get("href"),
+                       points=points_text[0].split()[0] if points_text else "0",
+                       comments_cnt=comments_text.split()[0])
 
 
+def t9():
+    crawler = HNTopPostsSpider(sys.stdout)
+    crawler.write_to_file()
 
 
 if __name__ == "__main__":
     print("................ZEN STARTING...................")
-    t8()
+    t9()
     print("...................THE END.....................")
