@@ -1,19 +1,21 @@
-import re
+import io, sys
 import timeit
 import bisect
 import random
 from enum import Enum
+from urllib import parse
 from textwrap import dedent
-from typing import NamedTuple
-from contextlib import contextmanager
-import sys
-from typing import Iterable, TextIO
+# from contextlib import contextmanager
+from typing import Iterable, TextIO, List, Optional, NamedTuple, Dict
+from abc import ABC, abstractmethod
+from collections import Counter
 
 import requests
 from lxml import etree
 from jinja2 import Template
-from requests.exceptions import RequestException
+# from requests.exceptions import RequestException
 from pydantic import BaseModel, conint, ValidationError
+from flask_sqlalchemy import Model
 
 
 def render_movies_j2(username, movies):
@@ -393,8 +395,8 @@ def t8():
 
 """
 SOLID设计原则
-    S: single responsibility principle(SRP, 单一职责原则)
-    O: open-closed principle (OCP, 开放关闭原则)
+    S: single responsibility principle(SRP, 单一职责原则) 一个类只应该有一种被修改的原因
+    O: open-closed principle (OCP, 开放关闭原则) 类应该对扩展开放，对修改封闭
     L: Liskov substitution principle (LSP, 里式替换原则)
     I: interface segregation principle (ISP, 接口隔离原则)
     D: dependency inversion principle (DIP, 依赖倒置原则)
@@ -417,6 +419,28 @@ class Post:
         self.comments_cnt = int(comments_cnt)
 
 
+
+class PostFilter(ABC):
+    """抽象类：定义如何过滤帖子结果"""
+
+    @abstractmethod
+    def validate(self, post: Post) -> bool:
+        """判断帖子是否应该保存"""
+
+
+class DefaultPostFilter(PostFilter):
+    """保留所有帖子"""
+
+    def validate(self, post: Post) -> bool:
+        return True
+
+
+class GithubPostFilter(PostFilter):
+    def validate(self, post: Post) -> bool:
+        parsed_link = parse.urlparse(post.link)
+        return parsed_link.netloc == "github.com"
+
+
 class HNTopPostsSpider:
     """抓取 Hacker News Top 内容条目
 
@@ -427,17 +451,19 @@ class HNTopPostsSpider:
     items_url = "https://news.ycombinator.com/"
     file_title = "Top news on HN"
 
-    def __init__(self, fp: TextIO, limit: int = 5):
-        self.fp = fp
+    def __init__(self, limit: int = 5, filter_by_hosts: Optional[List[str]] = None):
+        # self.fp = fp
         self.limit = limit
+        # self.post_filter = post_filter or DefaultPostFilter()
+        self.filter_by_hosts = filter_by_hosts
 
-    def write_to_file(self):
-        """以纯文本格式将 Hacker News Top 内容写入文件"""
-        self.fp.write(f"#{self.file_title}\n\n")
-        for i, post in enumerate(self.fetch(), 1):
-            self.fp.write(f"> TOP {i}: {post.title}\n")
-            self.fp.write(f"> 分数：{post.points} 评论数：{post.comments_cnt}\n")
-            self.fp.write(f"> 地址：{post.link}\n")
+    # def write_to_file(self):
+    #     """以纯文本格式将 Hacker News Top 内容写入文件"""
+    #     self.fp.write(f"#{self.file_title}\n\n")
+    #     for i, post in enumerate(self.fetch(), 1):  # enumerate()接收第二个参数，表示从这个数开始计数，默认i是0
+    #         self.fp.write(f"> TOP {i}: {post.title}\n")
+    #         self.fp.write(f"> 分数：{post.points} 评论数：{post.comments_cnt}\n")
+    #         self.fp.write(f"> 地址：{post.link}\n")
 
     def fetch(self) -> Iterable[Post]:
         """从Hacker News 抓取Top内容
@@ -460,15 +486,30 @@ class HNTopPostsSpider:
         # 使用XPath解析页面内容
         html = etree.HTML(resp.text)
         items = html.xpath("//table/tr[@class='athing']")
-        for item in items[:self.limit]:
+        counter = 0
+        for item in items:
+            if counter >= self.limit:
+                break
             node_title = item.xpath("./td[@class='title'][last()]/span/a")[0]
             node_detail = item.getnext()
             points_text = node_detail.xpath("./td[last()]/span/span[@class='score']/text()")[0]
             comments_text = node_detail.xpath("./td[last()]/span/a[last()]/text()")[0]
-            yield Post(title=node_title.text,
-                       link=node_title.get("href"),
-                       points=points_text[0].split()[0] if points_text else "0",
-                       comments_cnt=comments_text.split()[0])
+            post = Post(title=node_title.text,
+                        link=node_title.get("href"),
+                        points=points_text[0].split()[0] if points_text else "0",
+                        comments_cnt=comments_text.split()[0])
+            # if self.post_filter.validate(post):
+            if self._check_link_from_hosts(post.link):
+                counter += 1
+                yield post
+
+    def _check_link_from_hosts(self, link: str) -> bool:
+        """检查某链接是否属于所定义的站点"""
+        if self.filter_by_hosts is None:
+            return True
+
+        parsed_link = parse.urlparse(link)
+        return parsed_link.netloc in self.filter_by_hosts
 
 
 def t9():
@@ -476,7 +517,121 @@ def t9():
     crawler.write_to_file()
 
 
+class PostsWriter:
+    """负责将帖子列表写入文件"""
+
+    def __init__(self, fp: io.TextIOBase, title: str) -> None:
+        self.fp = fp
+        self.title = title
+
+    def write(self, posts: List[Post]):
+        self.fp.write(f"#{self.title}\n\n")
+        for i, post in enumerate(posts, 1):
+            self.fp.write(f"> TOP {i}: {post.title}\n")
+            self.fp.write(f"> 分数：{post.points} 评论数：{post.comments_cnt}\n")
+            self.fp.write(f"> 地址：{post.link}\n")
+            self.fp.write("---------\n")
+
+
+def t10(fp: Optional[TextIO] = None):
+    """获取 Hacker News Top 内容，并将其写入文件中
+
+    :param fp: 需要写入的文件，如未提供，将向标准输出打印
+    """
+    dest_fp = fp or sys.stdout
+    crawler = HNTopPostsSpider()
+    writer = PostsWriter(dest_fp, title="Top news on HN")
+    writer.write(list(crawler.fetch()))
+
+
+"""
+SOLID设计原则
+    L: Liskov substitution principle (LSP, 里式替换原则)
+        - 所有子类（派生类）对象应该可以任意替代父类（基类）对象使用，且不会破坏程序原本的功能。
+"""
+
+
+class DeactivationNotSupported(Exception):
+    """当用户不支持停用时抛出"""
+
+
+class User(Model):
+    """用户类，包含普通用户的相关操作"""
+    def deactivate(self):
+        """停用当前用户
+        :raises: 当用户不支持停用时，抛出异常
+        """
+        self.is_active = False
+        self.save()
+
+
+class Admin(User):
+    def deactivate(self):
+        raise DeactivationNotSupported("admin can not be deactivated")
+
+
+"""
+SOLID设计原则
+    I: interface segregation principle (ISP, 接口隔离原则)
+    D: dependency inversion principle (DIP, 依赖倒置原则)
+    - 高层模块不应该依赖低层模块，二者都应该依赖抽象
+"""
+
+
+class SiteSourceGrouper:
+    """对Hacker News 新闻来源站点进行分组统计
+
+    :param url: Hacker News 首页地址
+    """
+
+    def __init__(self, url: str):
+        self.url = url
+
+    def get_groups(self) -> Dict[str, int]:
+        """获取（域名，个数）分组"""
+        groups = Counter()
+        for i in range(1, 10):
+            resp = requests.get(self.url + f"?p={i}", proxies={
+                "http": "http://127.0.0.1:7890",
+                "https": "http://127.0.0.1:7890",
+            })
+            html = etree.HTML(resp.text)
+            # 通过xpath语法筛选新闻域名标签
+            # elems = html.xpath("//table/tr[@class='athing']/td[@class='title'][last()]/span[@class='titleline']/span/a/span/text()")
+            elems = html.xpath("//span[@class='sitebit comhead']/a/span")
+            for elem in elems:
+                groups.update([elem.text])
+        return groups
+
+
+def t11():
+    groups = SiteSourceGrouper("https://news.ycombinator.com/").get_groups()
+    # 打印最常见的 3 个域名
+    for key, value in groups.most_common(3):
+        print(f"Site: {key} | Count: {value}")
+
+import hashlib
+import Crypto
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad, unpad
+
+class SM4Crypt:
+    def __init__(self, key):
+        self.key = hashlib.md5(key.encode()).digest()
+
+    def encrypt(self, plaintext):
+        cipher = AES.new(self.key, AES.MODE_CBC)
+        ciphertext = cipher.encrypt(pad(plaintext.encode(), AES.block_size))
+        iv = cipher.iv
+        return (ciphertext, iv)
+
+    def decrypt(self, ciphertext, iv):
+        cipher = AES.new(self.key, AES.MODE_CBC, iv=iv)
+        plaintext = unpad(cipher.decrypt(ciphertext), AES.block_size)
+        return plaintext.decode()
+
+
 if __name__ == "__main__":
     print("................ZEN STARTING...................")
-    t9()
+    t11()
     print("...................THE END.....................")
