@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>TITLE</title>
+    <style>
+        #chatbox {
+            width: 60%;
+            height: 300px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            overflow-y: scroll;
+        }
+        #message {
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #send-btn {
+            width: 100px;
+            height: 40px;
+            background-color: #007aff;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #gpt {
+            width: 39px;
+            height: 23px;
+            background-color: #007aff;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .message-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-bottom: 10px;
+        }
+        .message-row-response {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            margin-bottom: 10px;
+        }
+        .message-row .message {
+            background-color: #007aff;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            max-width: 60%;
+            word-wrap: break-word;
+        }
+        .message-row-response .message {
+            background-color: #007aff;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            max-width: 60%;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="gpt">GPT</div> -->
+    <div id="chatbox"></div>
+    <input type="text" id="message" placeholder="输入消息" />
+    <button id="send-btn" onclick="sendMessage()">发送</button>
+    <script src="https://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+    <script src="./node_modules/socket.io/client-dist/socket.io.js"></script>
+    <link rel="stylesheet" href="//cdn.staticfile.org/jquery-weui/1.2.0/css/jquery-weui.min.css">
+    <script src="//cdn.staticfile.org/jquery-weui/1.2.0/js/jquery-weui.min.js"></script>
+    <script type="text/javascript">
+        var websocket_url = 'http://' + document.domain + ':' + location.port + '/testnamespace';
+        console.log(websocket_url)
+        //没错是用http开头的url了，因为这个库会自动解析并帮我们创建websocket对象的
+        //最后的namespace是websocket中的命名空间，后面再讲
+        var socket = io.connect(websocket_url);
+        const chatbox = document.getElementById('chatbox');
+
+        //监听回复的消息
+        socket.on('response',function(data){
+            if (data.code == '200'){
+                const messageRow = document.createElement('div');
+                messageRow.className = 'message-row-response';
+                const message = document.createElement('div');
+                message.className = 'message';
+                message.innerText = data.msg;
+                messageRow.appendChild(message);
+                chatbox.appendChild(messageRow);
+            }
+            else{
+                alert('ERROR:' + data.msg);
+            }
+        });
+
+        // 发送消息
+        function sendMessage() {
+            console.log("Sending....")
+            const messageInput = document.getElementById('message');
+            const messageText = messageInput.value;
+            if (messageText.trim() === '') {
+                console.log("in None")
+                return;
+            }
+            socket.emit('request_for_response', { param: messageText });
+            const messageRow = document.createElement('div');
+            messageRow.className = 'message-row';
+            const message = document.createElement('div');
+            message.className = 'message';
+            message.innerText = messageText;
+            messageRow.appendChild(message);
+            chatbox.appendChild(messageRow);
+            messageInput.value = '';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>WebSocket对话框</title>
+  </head>
+  <script src="./node_modules/socket.io/client-dist/socket.io.js"></script>
+  <body>
+    <div id="chatbox" style="height: 300px; overflow-y: scroll;"></div>
+    <input type="text" id="message" placeholder="输入消息" />
+    <button onclick="sendMessage()">发送</button>
+    <script>
+      // 创建WebSocket连接
+    //   'http://' + document.domain + ':' + location.port + '/testnamespace'
+    //   const socket = new WebSocket('ws://' + document.domain + ':' + location.port + '/testnamespace');
+      var websocket_url = 'http://' + document.domain + ':' + location.port + '/testnamespace';
+      console.log(websocket_url)
+      //没错是用http开头的url了，因为这个库会自动解析并帮我们创建websocket对象的
+      //最后的namespace是websocket中的命名空间，后面再讲
+      var socket = io.connect(websocket_url);
+
+      // 监听连接状态
+      socket.onopen = function () {
+        console.log('WebSocket连接已建立');
+      };
+
+      // 监听消息接收
+      //监听回复的消息
+    socket.on('response',function(data){
+        if (data.code == '200'){
+            //给服务端发送 sendMsg事件名的消息
+            // socket.emit("sendMsg", data);
+            const chatbox = document.getElementById('chatbox');
+            chatbox.innerHTML += '<p><strong>GPT：</strong>' + data.msg + '</p>';
+            // content.value += data.msg + "\r\n";
+            // alert(data.msg);
+        }
+        else{
+            alert('ERROR:' + data.msg);
+        }
+    });
+
+      // 监听连接关闭
+      socket.onclose = function () {
+        console.log('WebSocket连接已关闭');
+      };
+
+      // 发送消息
+      function sendMessage() {
+        const message = document.getElementById('message').value;
+        socket.emit('request_for_response', {'param': message});
+        const chatbox = document.getElementById('chatbox');
+        chatbox.innerHTML += '<p><strong>我：</strong>' + message + '</p>';
+        document.getElementById('message').value = '';
+      }
+    </script>
+  </body>
+</html>

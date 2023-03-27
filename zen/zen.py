@@ -1,4 +1,4 @@
-import io, sys
+import io, sys, inspect
 import timeit
 import bisect
 import random
@@ -610,28 +610,34 @@ def t11():
     for key, value in groups.most_common(3):
         print(f"Site: {key} | Count: {value}")
 
-import hashlib
-import Crypto
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import pad, unpad
 
-class SM4Crypt:
-    def __init__(self, key):
-        self.key = hashlib.md5(key.encode()).digest()
+def t12():
+    def f1():
+        f2(1, 2, 3, 4, e=5)
 
-    def encrypt(self, plaintext):
-        cipher = AES.new(self.key, AES.MODE_CBC)
-        ciphertext = cipher.encrypt(pad(plaintext.encode(), AES.block_size))
-        iv = cipher.iv
-        return (ciphertext, iv)
+    def f2(a, b, c, d, *, e, **kw):
+        f = 6
+        g = 7
+        f3()
 
-    def decrypt(self, ciphertext, iv):
-        cipher = AES.new(self.key, AES.MODE_CBC, iv=iv)
-        plaintext = unpad(cipher.decrypt(ciphertext), AES.block_size)
-        return plaintext.decode()
+    def f3():
+        # 栈帧
+        frame = inspect.currentframe().f_back
+        f_locals = frame.f_locals  # 名字空间 包含 f g f3
+        code = frame.f_code  # 代码对象
+        arg_count = code.co_argcount + code.co_kwonlyargcount  # 参数个数
+        if code.co_flags & 0x04:  # *args
+            arg_count += 1
+        if code.co_flags & 0x08:  # **kwargs
+            arg_count += 1
+        params = code.co_varnames[: arg_count]
+        print(
+            {p: f_locals[p] for p in params}
+        )
+    f1()  # {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'kw': {}}
 
 
 if __name__ == "__main__":
     print("................ZEN STARTING...................")
-    t11()
+    t12()
     print("...................THE END.....................")
