@@ -20,9 +20,10 @@ class HelloWorld(Resource):
 @socketio.on('request_for_response', namespace='/testnamespace')
 def give_response(data):
     msg = data.get('param')
+    emit('response', {'code': '200', 'msg': 'start to process...'})
     print(f"param: {msg}")
     headers = {
-        "Authorization": "Bearer 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"
+        "Authorization": "Bearer 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"
     }
     payload = {
         "model": "gpt-3.5-turbo",
@@ -36,7 +37,7 @@ def give_response(data):
                                   "https": "http://127.0.0.1:7890"},
                          verify=False)
     if resp.status_code != 200:
-        pass
+        emit("response", {"code": 200, "msg": resp.json()})
     print(f"response: {resp.json()}")
     for i in resp.json()["choices"]:
         emit("response", {"code": 200, "msg": i["message"]["content"]})
