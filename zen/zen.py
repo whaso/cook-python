@@ -18,6 +18,7 @@ from pydantic import BaseModel, conint, ValidationError
 from flask_sqlalchemy import Model
 
 
+
 def render_movies_j2(username, movies):
     _MOVIES_TMPL = """
     Welcome, {{username}}.
@@ -590,7 +591,7 @@ class SiteSourceGrouper:
     def get_groups(self) -> Dict[str, int]:
         """获取（域名，个数）分组"""
         groups = Counter()
-        for i in range(1, 10):
+        for i in range(1, 5):
             resp = requests.get(self.url + f"?p={i}", proxies={
                 "http": "http://127.0.0.1:7890",
                 "https": "http://127.0.0.1:7890",
@@ -637,7 +638,29 @@ def t12():
     f1()  # {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'kw': {}}
 
 
+# def test_grouper_returning_valid_type():
+#     """测试 get_groups 是否返回了正确类型"""
+#     grouper = SiteSourceGrouper("https://news.ycombinator.com/")
+#     result = grouper.get_groups()
+#     assert isinstance(result, Counter), "groups should be Counter instance"
+
+from unittest import mock
+
+
+@mock.patch("requests.get")
+def test_grouper_returning_valid_type(mocked_get):
+    """测试 get_groups 是否返回了正确类型"""
+    with open("./zen/hn.html", "r") as fp:
+        mocked_get.return_value.text = fp.read()
+
+    grouper = SiteSourceGrouper("https://news.ycombinator.com/")
+    result = grouper.get_groups()
+    assert isinstance(result, Counter), "groups should be Counter instance"
+    for key, value in result.most_common(3):
+        print(f"Site: {key} | Count: {value}")
+
+
 if __name__ == "__main__":
     print("................ZEN STARTING...................")
-    t12()
+    test_grouper_returning_valid_type()
     print("...................THE END.....................")
