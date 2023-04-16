@@ -7,7 +7,7 @@ from urllib import parse
 from textwrap import dedent
 # from contextlib import contextmanager
 from typing import Iterable, TextIO, List, Optional, NamedTuple, Dict
-from abc import ABC, abstractmethod
+from abc import ABC, abstractmethod, ABCMeta
 from collections import Counter
 
 import requests
@@ -658,6 +658,66 @@ def test_grouper_returning_valid_type(mocked_get):
     assert isinstance(result, Counter), "groups should be Counter instance"
     for key, value in result.most_common(3):
         print(f"Site: {key} | Count: {value}")
+
+
+class HNWebPage(metaclass=ABCMeta):
+    """抽象类：Hacker News 站点页面"""
+
+    @abstractmethod
+    def get_text(self) -> str:
+        raise NotImplementedError
+
+
+class RemoteHNWebPage(HNWebPage):
+    """远程页面，通过请示 HN 站点返回内容"""
+
+    def __init__(self, url: str) -> None:
+        self.url = url
+
+    def get_text(self) -> str:
+        resp = requests.get(self.url)
+        return resp.text
+
+
+class SiteSourceGrouper:
+    """对HN页面新闻来源站点进行分组统计"""
+
+    def __init__(self, page: HNWebPage) -> None:
+        self.page = page
+
+    def get_groups(self) -> Dict[str, int]:
+        """获取（域名，个数）分组"""
+        html = etree.HTML(self.page.get_text())
+        # 通过 xpath 语法筛选新闻域名标签
+        elems = html.xpath("//table[@class='itemlist']//span[@class='sitestr']")
+
+        groups = Counter()
+        for e in elems:
+            groups.update([e.text])
+        return groups
+
+
+class LocalHNWebPage(HNWebPage):
+    """本地页面"""
+
+    def __init__(self, path: str) -> None:
+        self.path = path
+
+    def get_text(self) -> str:
+        with open(self.path, "r") as fp:
+            return fp.read()
+
+
+def test_grouper_from_local():
+    page = LocalHNWebPage(path="./static_hn.html")
+    grouper = SiteSourceGrouper(page)
+    result = grouper.get_groups()
+    assert isinstance(result, Counter), "groups should be Counter instance"
+
+
+
+
+        
 
 
 if __name__ == "__main__":
