@@ -22,7 +22,7 @@
     //最后的namespace是websocket中的命名空间，后面再讲
     var socket = io.connect(websocket_url);
     //发送消息
-    socket.emit('request_for_response',{'param':'value'});
+    socket.emit('request_for_response', {'param':'value'});
     //监听回复的消息
     socket.on('response',function(data){
         if (data.code == '200'){

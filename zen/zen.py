@@ -1,4 +1,4 @@
-import io, sys
+import io, sys, inspect
 import timeit
 import bisect
 import random
@@ -16,6 +16,7 @@ from jinja2 import Template
 # from requests.exceptions import RequestException
 from pydantic import BaseModel, conint, ValidationError
 from flask_sqlalchemy import Model
+
 
 
 def render_movies_j2(username, movies):
@@ -590,7 +591,7 @@ class SiteSourceGrouper:
     def get_groups(self) -> Dict[str, int]:
         """获取（域名，个数）分组"""
         groups = Counter()
-        for i in range(1, 10):
+        for i in range(1, 5):
             resp = requests.get(self.url + f"?p={i}", proxies={
                 "http": "http://127.0.0.1:7890",
                 "https": "http://127.0.0.1:7890",
@@ -610,27 +611,56 @@ def t11():
     for key, value in groups.most_common(3):
         print(f"Site: {key} | Count: {value}")
 
-import hashlib
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import pad, unpad
 
-class SM4Crypt:
-    def __init__(self, key):
-        self.key = hashlib.md5(key.encode()).digest()
+def t12():
+    def f1():
+        f2(1, 2, 3, 4, e=5)
 
-    def encrypt(self, plaintext):
-        cipher = AES.new(self.key, AES.MODE_CBC)
-        ciphertext = cipher.encrypt(pad(plaintext.encode(), AES.block_size))
-        iv = cipher.iv
-        return (ciphertext, iv)
+    def f2(a, b, c, d, *, e, **kw):
+        f = 6
+        g = 7
+        f3()
 
-    def decrypt(self, ciphertext, iv):
-        cipher = AES.new(self.key, AES.MODE_CBC, iv=iv)
-        plaintext = unpad(cipher.decrypt(ciphertext), AES.block_size)
-        return plaintext.decode()
+    def f3():
+        # 栈帧
+        frame = inspect.currentframe().f_back
+        f_locals = frame.f_locals  # 名字空间 包含 f g f3
+        code = frame.f_code  # 代码对象
+        arg_count = code.co_argcount + code.co_kwonlyargcount  # 参数个数
+        if code.co_flags & 0x04:  # *args
+            arg_count += 1
+        if code.co_flags & 0x08:  # **kwargs
+            arg_count += 1
+        params = code.co_varnames[: arg_count]
+        print(
+            {p: f_locals[p] for p in params}
+        )
+    f1()  # {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'kw': {}}
+
+
+# def test_grouper_returning_valid_type():
+#     """测试 get_groups 是否返回了正确类型"""
+#     grouper = SiteSourceGrouper("https://news.ycombinator.com/")
+#     result = grouper.get_groups()
+#     assert isinstance(result, Counter), "groups should be Counter instance"
+
+from unittest import mock
+
+
+@mock.patch("requests.get")
+def test_grouper_returning_valid_type(mocked_get):
+    """测试 get_groups 是否返回了正确类型"""
+    with open("./zen/hn.html", "r") as fp:
+        mocked_get.return_value.text = fp.read()
+
+    grouper = SiteSourceGrouper("https://news.ycombinator.com/")
+    result = grouper.get_groups()
+    assert isinstance(result, Counter), "groups should be Counter instance"
+    for key, value in result.most_common(3):
+        print(f"Site: {key} | Count: {value}")
 
 
 if __name__ == "__main__":
     print("................ZEN STARTING...................")
-    t11()
+    test_grouper_returning_valid_type()
     print("...................THE END.....................")

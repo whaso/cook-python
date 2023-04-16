@@ -13,9 +13,8 @@
             "env": {
                 "FLASK_APP": "flaskrest/app.py",
                 "FLASK_ENV": "development",
-                // "DYLD_LIBRARY_PATH": "/opt/mqm/lib64",
-                // "PYTHONPATH": "${workspaceFolder}/smartbase:${workspaceFolder}/apps:${workspaceFolder}/projects:${workspaceFolder}/libs"
             },
+            // 访问地址：http://168.168.78.172:5000/static/index.html
             "args": [
                 "run",
                 "-h",
@@ -33,22 +32,6 @@
             "request": "launch",
             "program": "flask_tutorial/app.py",
             "console": "integratedTerminal"
-        },
-        {
-            "name": "py",
-            "type": "python",
-            "request": "launch",
-            "program": "spyders/spotify.py",
-            "console": "integratedTerminal"
-        },
-        {
-            "name": "tt",
-            "type": "python",
-            "request": "launch",
-            "program": "tricks/trytest.py",
-            "console": "integratedTerminal",
-            "args": [
-            ]
         },
         {
             "name": "zen",
