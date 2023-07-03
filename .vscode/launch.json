@@ -25,7 +25,6 @@
             ],
             "jinja": true,
         },
-        
         {
             "name": "app",
             "type": "python",
@@ -39,10 +38,20 @@
             "request": "launch",
             "program": "zen/zen.py",
             "console": "integratedTerminal",
-            // "args": [
-            //     "t1",
-            //     "t2"
-            // ]
+        },
+        {
+            "name": "pdf",
+            "type": "python",
+            "request": "launch",
+            "program": "pdfhelper/pdfAIO.py",
+            "console": "integratedTerminal",
+        },
+        {
+            "name": "tricks",
+            "type": "python",
+            "request": "launch",
+            "program": "tricks/trick1.py",
+            "console": "integratedTerminal",
         }
     ]
 }

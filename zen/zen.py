@@ -715,12 +715,13 @@ def test_grouper_from_local():
     assert isinstance(result, Counter), "groups should be Counter instance"
 
 
-
-
-        
+class A:
+    def __init__(self, a) -> None:
+        self.a = a
+        print(f"A: {a}")
 
 
 if __name__ == "__main__":
     print("................ZEN STARTING...................")
-    test_grouper_returning_valid_type()
+    # test_grouper_returning_valid_type()
     print("...................THE END.....................")
