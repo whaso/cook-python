@@ -37,12 +37,15 @@
             "name": "zen",
             "type": "python",
             "request": "launch",
-            "program": "zen/zen.py",
+            "program": "tricks/smalls.py",
             "console": "integratedTerminal",
-            // "args": [
-            //     "t1",
-            //     "t2"
-            // ]
+        },
+        {
+            "name": "mul",
+            "type": "python",
+            "request": "launch",
+            "program": "multitask/__init__.py",
+            "console": "integratedTerminal",
         }
     ]
 }

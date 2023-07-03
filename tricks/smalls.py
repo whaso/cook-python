@@ -1,35 +1,40 @@
+import time
+import functools
+from typing import Any
 
 
-def share_var(a):
-    a["int"] = 20
+def wrapper(func):
+    counter = 0
+    cache = {}
+
+    @functools.wraps(func)
+    def inner(*args: Any, **kwds: Any):
+        nonlocal counter
+
+        counter += 1
+        print(f"func {func.__name__} runs {counter}")
+
+        cache_key = (args, tuple(kwds.items()))
+        if cache_key in cache:
+            print("get cached data")
+            return cache[cache_key]
+
+        start = time.time()
+        res = func(*args, **kwds)
+        end = time.time()
+
+        cache[cache_key] = res
+        print(f"time cost: {round(end - start, 2)}s")
+        return res
+    return inner
+
+
+@wrapper
+def test(a):
+    time.sleep(1)
     print(a)
 
-
-def t_dict():
-    a = dict(
-        id=1,
-        name="a"
-    )
-    b = dict(
-        id=2,
-        name="b"
-    )
-    l = [a, b]
-
-    for i, j in enumerate(l):
-        if j["id"] == 1:
-            del l[i]
-    
-    print(l)
-
-
-a = 10
-
-def test():
-    print(a)
-
-    a = 20
 
 if __name__ == "__main__":
-    # t_dict()
-    test()
+    test(1)
+    test(1)
