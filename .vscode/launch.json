@@ -43,7 +43,7 @@
             "name": "mul",
             "type": "python",
             "request": "launch",
-            "program": "multitask/__init__.py",
+            "program": "multitask/multhread.py",
             "console": "integratedTerminal",
         },
         {
