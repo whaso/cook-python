@@ -43,8 +43,11 @@
             "name": "mul",
             "type": "python",
             "request": "launch",
-            "program": "multitask/multhread.py",
+            "program": "multitask/mulgevent1.py",
             "console": "integratedTerminal",
+            "env": {
+                "GEVENT_SUPPORT": "True",
+            },
         },
         {
             "name": "pdf",
